@@ -18,14 +18,12 @@ export default function HomePage() {
           >
             Take the IT Monitoring Assessment
           </Link>
-          <a
-            href="/whitepaper.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/whitepaper"
             className="rounded-[10px] border border-border px-6 py-3.5 font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:opacity-95"
           >
-            Download the White Paper
-          </a>
+            Read the White Paper
+          </Link>
         </div>
         <footer className="mt-10 text-sm text-muted-foreground">
           © ITMonitoring.com — Advisory Services Only
