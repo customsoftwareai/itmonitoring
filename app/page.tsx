@@ -22,7 +22,7 @@ export default function HomePage() {
             href="/whitepaper"
             className="rounded-[10px] border border-border px-6 py-3.5 font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:opacity-95"
           >
-            Read the White Paper
+            Get the White Paper
           </Link>
         </div>
         <footer className="mt-10 text-sm text-muted-foreground">
