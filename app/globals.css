@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Atkinson Hyperlegible for dyslexia-friendly option */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @layer base {
   :root {
     --background: 222 47% 7%;
@@ -24,6 +27,53 @@
     --input: 220 13% 22%;
     --ring: 217 91% 60%;
     --radius: 0.625rem;
+    
+    /* Accessibility tokens */
+    --a11y-focus-color: 217 91% 60%;
+    --a11y-focus-width: 3px;
+    --a11y-text-scale: 1;
+    --a11y-line-height-scale: 1;
+  }
+  
+  /* Light theme */
+  .a11y-theme-light {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 217 91% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 220 14% 96%;
+    --accent-foreground: 222 47% 11%;
+    --border: 220 13% 85%;
+    --input: 220 13% 85%;
+  }
+  
+  /* High contrast theme - WCAG AAA compliant */
+  .a11y-theme-high-contrast {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 60 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 80%;
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 100%;
+    --border: 0 0% 100%;
+    --input: 0 0% 20%;
+    --ring: 60 100% 50%;
   }
 }
 
@@ -34,4 +84,237 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* ============================================
+   ACCESSIBILITY STYLES
+   ============================================ */
+
+/* Skip Links */
+.skip-link {
+  @apply absolute left-4 z-[9999] -translate-y-full rounded-md bg-primary px-4 py-2 font-semibold text-primary-foreground transition-transform focus:translate-y-4;
+}
+
+/* Focus Indicators - Always visible option */
+.a11y-focus-visible *:focus {
+  outline: var(--a11y-focus-width) solid hsl(var(--a11y-focus-color)) !important;
+  outline-offset: 2px !important;
+}
+
+.a11y-focus-visible *:focus:not(:focus-visible) {
+  outline: var(--a11y-focus-width) solid hsl(var(--a11y-focus-color)) !important;
+}
+
+/* Text Size Adjustments */
+.a11y-text-110 {
+  --a11y-text-scale: 1.1;
+}
+.a11y-text-125 {
+  --a11y-text-scale: 1.25;
+}
+.a11y-text-150 {
+  --a11y-text-scale: 1.5;
+}
+.a11y-text-175 {
+  --a11y-text-scale: 1.75;
+}
+.a11y-text-200 {
+  --a11y-text-scale: 2;
+}
+
+.a11y-text-110 body,
+.a11y-text-125 body,
+.a11y-text-150 body,
+.a11y-text-175 body,
+.a11y-text-200 body {
+  font-size: calc(1rem * var(--a11y-text-scale));
+}
+
+/* Line Spacing Adjustments */
+.a11y-line-120 {
+  --a11y-line-height-scale: 1.2;
+}
+.a11y-line-140 {
+  --a11y-line-height-scale: 1.4;
+}
+
+.a11y-line-120 body,
+.a11y-line-140 body {
+  line-height: calc(1.5 * var(--a11y-line-height-scale));
+}
+
+.a11y-line-120 p,
+.a11y-line-120 li,
+.a11y-line-120 span,
+.a11y-line-140 p,
+.a11y-line-140 li,
+.a11y-line-140 span {
+  line-height: calc(1.6 * var(--a11y-line-height-scale));
+}
+
+/* Dyslexia-friendly font */
+.a11y-dyslexia-font body,
+.a11y-dyslexia-font p,
+.a11y-dyslexia-font li,
+.a11y-dyslexia-font span,
+.a11y-dyslexia-font h1,
+.a11y-dyslexia-font h2,
+.a11y-dyslexia-font h3,
+.a11y-dyslexia-font h4,
+.a11y-dyslexia-font h5,
+.a11y-dyslexia-font h6 {
+  font-family: 'Atkinson Hyperlegible', system-ui, sans-serif !important;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+
+/* Underline Links */
+.a11y-underline-links a:not([role="button"]):not(.skip-link):not(.a11y-menu-btn) {
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+/* Highlight Links */
+.a11y-highlight-links a:not([role="button"]):not(.skip-link):not(.a11y-menu-btn) {
+  background-color: hsl(60 100% 50% / 0.3) !important;
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+}
+
+.a11y-theme-high-contrast.a11y-highlight-links a:not([role="button"]):not(.skip-link):not(.a11y-menu-btn) {
+  background-color: hsl(60 100% 50% / 0.5) !important;
+}
+
+/* Big Cursor */
+.a11y-big-cursor,
+.a11y-big-cursor * {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' stroke='%23fff' stroke-width='1' d='M5.5 3.21V20.8l4.86-4.86h6.21L5.5 3.21z'/%3E%3C/svg%3E") 0 0, auto !important;
+}
+
+.a11y-big-cursor a,
+.a11y-big-cursor button,
+.a11y-big-cursor [role="button"],
+.a11y-big-cursor input,
+.a11y-big-cursor select,
+.a11y-big-cursor textarea {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' stroke='%23fff' stroke-width='1' d='M12 4C8 4 4 8 4 12s4 8 8 8 8-4 8-8-4-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z'/%3E%3Ccircle fill='%23000' cx='12' cy='12' r='3'/%3E%3C/svg%3E") 24 24, pointer !important;
+}
+
+/* Reduce Motion */
+.a11y-reduce-motion,
+.a11y-reduce-motion * {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+.a11y-reduce-motion video,
+.a11y-reduce-motion .animated {
+  animation-play-state: paused !important;
+}
+
+/* Reading Guide */
+.a11y-reading-guide-active {
+  position: relative;
+}
+
+.a11y-reading-guide {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    hsl(60 100% 50% / 0.15) 10%,
+    hsl(60 100% 50% / 0.15) 90%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 9998;
+  border-top: 2px solid hsl(60 100% 50% / 0.5);
+  border-bottom: 2px solid hsl(60 100% 50% / 0.5);
+  transition: top 0.05s ease-out;
+}
+
+/* Pause Media indicator */
+.a11y-media-paused video,
+.a11y-media-paused [data-autoplay] {
+  animation-play-state: paused !important;
+}
+
+/* Accessibility Menu Styles */
+.a11y-menu-overlay {
+  @apply fixed inset-0 z-[9999] bg-black/50;
+}
+
+.a11y-menu-panel {
+  @apply fixed bottom-0 left-0 right-0 z-[10000] max-h-[85vh] overflow-y-auto rounded-t-2xl bg-card p-6 shadow-2xl md:bottom-auto md:left-auto md:right-4 md:top-1/2 md:max-h-[80vh] md:w-[400px] md:-translate-y-1/2 md:rounded-2xl;
+}
+
+.a11y-menu-btn {
+  @apply fixed bottom-4 right-4 z-[9998] flex h-14 w-14 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-ring/50 md:bottom-6 md:right-6;
+}
+
+@media (max-width: 767px) {
+  .a11y-menu-btn {
+    @apply bottom-4 left-1/2 right-auto -translate-x-1/2;
+  }
+}
+
+.a11y-section {
+  @apply mb-6 rounded-lg border border-border bg-secondary/50 p-4;
+}
+
+.a11y-section-title {
+  @apply mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-foreground;
+}
+
+.a11y-control-row {
+  @apply flex items-center justify-between gap-4 py-2;
+}
+
+.a11y-control-label {
+  @apply text-sm text-foreground;
+}
+
+.a11y-toggle {
+  @apply relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent bg-muted transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background;
+}
+
+.a11y-toggle[data-state="checked"] {
+  @apply bg-primary;
+}
+
+.a11y-toggle-thumb {
+  @apply pointer-events-none block h-5 w-5 translate-x-0 rounded-full bg-white shadow-lg ring-0 transition-transform;
+}
+
+.a11y-toggle[data-state="checked"] .a11y-toggle-thumb {
+  @apply translate-x-5;
+}
+
+.a11y-stepper {
+  @apply flex items-center gap-1;
+}
+
+.a11y-stepper-btn {
+  @apply flex h-8 w-8 items-center justify-center rounded-md bg-muted text-foreground transition-colors hover:bg-accent focus:outline-none focus:ring-2 focus:ring-ring;
+}
+
+.a11y-stepper-value {
+  @apply min-w-[60px] text-center text-sm font-medium text-foreground;
+}
+
+.a11y-theme-btn {
+  @apply flex flex-1 flex-col items-center gap-2 rounded-lg border-2 border-border p-3 transition-all hover:border-primary focus:outline-none focus:ring-2 focus:ring-ring;
+}
+
+.a11y-theme-btn[data-active="true"] {
+  @apply border-primary bg-primary/10;
+}
+
+.a11y-reset-btn {
+  @apply w-full rounded-lg bg-destructive/10 px-4 py-2 text-sm font-medium text-destructive transition-colors hover:bg-destructive/20 focus:outline-none focus:ring-2 focus:ring-destructive;
 }
