@@ -76,7 +76,7 @@ export default function CareersPage() {
           <div className="overflow-hidden rounded-2xl border border-white/10 bg-card">
             <iframe
               title="IT Monitoring Specialist Application"
-              className="h-[1100px] w-full border-none"
+              className="h-[2000px] w-full border-none"
               src="https://forms.zohopublic.com/access/form/ITMonitoringSpecialistApplication/formperma/K8fo2MvE19TjCswZ2aOMgCEU_twNDH27sQ18K3_5S7Q"
             />
           </div>
