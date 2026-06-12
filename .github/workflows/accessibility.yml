@@ -1,0 +1,47 @@
+name: Accessibility checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  jsx-a11y:
+    name: Static a11y lint (eslint-plugin-jsx-a11y)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install linters
+        run: npm install --no-save eslint@9 eslint-plugin-jsx-a11y@6 "@typescript-eslint/parser@8"
+      - name: Run jsx-a11y lint
+        run: npx eslint --config eslint.a11y.config.mjs "app/**/*.{ts,tsx}" "components/**/*.{ts,tsx}"
+
+  axe:
+    name: axe-core runtime scan (informational)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Enable corepack (pnpm)
+        run: corepack enable
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Install axe scanner
+        run: pnpm add -D puppeteer @axe-core/puppeteer wait-on
+      - name: Build
+        run: pnpm run build
+      - name: Start server
+        run: pnpm run start &
+      - name: Wait for server
+        run: npx wait-on http://localhost:3000 --timeout 120000
+      - name: Run axe-core scan
+        run: node tests/axe-scan.mjs
