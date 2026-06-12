@@ -35,7 +35,7 @@ export function SiteNav() {
         </Link>
         <div className="hidden items-center gap-8 md:flex">
           {NAV_LINKS.map((l) => (
-            <Link key={l.href} href={l.href} className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground focus:outline-none focus:ring-2 focus:ring-ring rounded">
+            <Link key={l.href} href={l.href} className="text-sm font-medium text-gray-400 transition-colors hover:text-foreground focus:outline-none focus:ring-2 focus:ring-ring rounded">
               {l.label}
             </Link>
           ))}
@@ -53,7 +53,7 @@ export function SiteNav() {
         <div className="border-t border-white/5 px-6 py-4 md:hidden">
           <div className="flex flex-col gap-1">
             {NAV_LINKS.map((l) => (
-              <Link key={l.href} href={l.href} onClick={() => setOpen(false)} className="rounded-lg px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-white/5 hover:text-foreground">
+              <Link key={l.href} href={l.href} onClick={() => setOpen(false)} className="rounded-lg px-3 py-2.5 text-sm font-medium text-gray-400 hover:bg-white/5 hover:text-foreground">
                 {l.label}
               </Link>
             ))}
@@ -74,20 +74,20 @@ export function SiteFooter() {
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row">
           <div className="max-w-sm">
             <Logo />
-            <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+            <p className="mt-4 text-sm leading-relaxed text-gray-400">
               An independent matching service that connects IT leaders with vetted specialists to solve infrastructure &amp; monitoring challenges.
             </p>
           </div>
           <nav aria-label="Footer navigation" className="grid grid-cols-2 gap-x-12 gap-y-3 text-sm">
-            <Link href="/#how-it-works" className="text-muted-foreground hover:text-foreground">How it works</Link>
-            <Link href="/#specialists" className="text-muted-foreground hover:text-foreground">Specialists</Link>
-            <Link href="/#faq" className="text-muted-foreground hover:text-foreground">FAQ</Link>
-            <Link href="/careers" className="text-muted-foreground hover:text-foreground">Careers</Link>
-            <Link href="/assessment" className="text-muted-foreground hover:text-foreground">Assessment</Link>
-            <Link href="/accessibility" className="text-muted-foreground hover:text-foreground">Accessibility</Link>
+            <Link href="/#how-it-works" className="text-gray-400 hover:text-foreground">How it works</Link>
+            <Link href="/#specialists" className="text-gray-400 hover:text-foreground">Specialists</Link>
+            <Link href="/#faq" className="text-gray-400 hover:text-foreground">FAQ</Link>
+            <Link href="/careers" className="text-gray-400 hover:text-foreground">Careers</Link>
+            <Link href="/assessment" className="text-gray-400 hover:text-foreground">Assessment</Link>
+            <Link href="/accessibility" className="text-gray-400 hover:text-foreground">Accessibility</Link>
           </nav>
         </div>
-        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
+        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-gray-400 md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} ITMonitoring.com. All rights reserved.</p>
           <p>ITMonitoring.com is an independent matching service — not a provider of tools, software, or consulting.</p>
         </div>
