@@ -22,8 +22,8 @@ const PAINS = [
 
 const STEPS = [
   { n: "01", title: "Take the assessment", body: "A short health check surfaces where your monitoring has gaps — downtime exposure, blind spots, alert noise, or tool sprawl." },
-  { n: "02", title: "We match you with a specialist", body: "We introduce you to one or more vetted specialists suited to your specific stack and environment. No cold vendor outreach." },
-  { n: "03", title: "Solve the problem — no obligation", body: "Have a relevant conversation. There's nothing to buy from us, and any engagement is arranged directly with the specialist." },
+  { n: "02", title: "We narrow it down to two", body: "We research your environment and introduce you to the two best-matched specialists — with a clear read on how each one fits, so the choice is easy. No cold vendor outreach." },
+  { n: "03", title: "Choose with confidence", body: "Talk to both, pick the one that fits, and engage them directly — there's nothing to buy from us, and no obligation. Not the right fit? Tell us and we'll dig deeper until we find the right person." },
 ]
 
 const SPECIALTIES = [
@@ -171,7 +171,7 @@ export default function HomePage() {
               </span>
               <h2 className="mt-5 text-2xl font-semibold tracking-tight text-foreground md:text-3xl">Transparent by design</h2>
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-                ITMonitoring.com is an independent matching service — not a provider of tools, software, or consulting. We don't do the technical work ourselves. What we do is make the right introduction, pairing you with a vetted specialist suited to your environment. You're told that upfront, every time.
+                ITMonitoring.com is an independent matching service — not a provider of tools, software, or consulting. We don't do the technical work ourselves. What we do is make the right introduction, pairing you with vetted specialists suited to your environment. You're told that upfront, every time.
               </p>
             </div>
           </div>
