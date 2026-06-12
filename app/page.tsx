@@ -66,7 +66,7 @@ export default function HomePage() {
                 See how it works
               </Link>
             </div>
-            <p className="mt-6 text-sm text-muted-foreground">Global reach · Vetted specialists · No vendor bias</p>
+            <p className="mt-6 text-sm font-medium text-muted-foreground">Free for IT leaders · No obligation · No vendor bias</p>
           </div>
         </section>
 
@@ -103,6 +103,31 @@ export default function HomePage() {
                   <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">{s.body}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* COST */}
+        <section id="pricing" className="scroll-mt-20">
+          <div className="relative mx-auto max-w-4xl px-6 py-20 text-center md:py-24">
+            <div className="pointer-events-none absolute left-1/2 top-1/3 h-[280px] w-[560px] -translate-x-1/2 rounded-full bg-primary/10 blur-[120px]" aria-hidden="true" />
+            <div className="relative">
+              <span className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+                Free for IT leaders
+              </span>
+              <h2 className="mt-6 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">What does it cost you? Nothing.</h2>
+              <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+                Getting matched and talking to a specialist is completely free — no fee, no markup, no subscription on your side, ever. Our vetted specialists pay us a referral fee when we introduce them, which is how the service stays free for the IT leaders we work with.
+              </p>
+              <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+                The only thing you would ever pay goes to a specialist directly — and only if you choose to engage one. We match you on fit, the right specialist for your environment, never on who pays us most.
+              </p>
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm font-medium">
+                <span className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-foreground">$0 to get matched</span>
+                <span className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-foreground">No obligation</span>
+                <span className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-foreground">No vendor bias</span>
+              </div>
             </div>
           </div>
         </section>
