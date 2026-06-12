@@ -7,9 +7,9 @@ import AccessibilityMenu from "@/components/AccessibilityMenu"
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
-  title: "ITMonitoring.com — Independent IT Monitoring Consulting",
+  title: "ITMonitoring.com — Connecting IT leaders with vetted specialists",
   description:
-    "Identify blind spots, reduce downtime risk, and improve monitoring strategy — without vendor bias.",
+    "An independent matching service that connects IT leaders with vetted specialists to solve infrastructure & monitoring challenges.",
 }
 
 export const viewport: Viewport = {
