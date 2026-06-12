@@ -17,7 +17,11 @@ const FAQS = [
   },
   {
     q: "How does the matching process work?",
-    a: "You start with a short assessment that surfaces where your monitoring has gaps — downtime exposure, blind spots, alert noise, or tool sprawl. From there, we introduce you to one or more vetted specialists suited to your specific environment. There's no obligation, and nothing to buy from us.",
+    a: "You start with a short assessment that surfaces where your monitoring has gaps — downtime exposure, blind spots, alert noise, or tool sprawl. From there, we research your environment and introduce you to the two best-matched specialists, with a clear read on how each one fits. There's no obligation, and nothing to buy from us.",
+  },
+  {
+    q: "How many specialists will you introduce me to?",
+    a: "Usually two. We research your environment and narrow it down to the two best-matched specialists, then explain how each one fits so you can choose with confidence. If neither is right, just tell us and we'll dig deeper until we find the right person — we're not a directory that hands you a list and walks away.",
   },
   {
     q: "What kinds of problems do the specialists handle?",
