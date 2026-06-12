@@ -305,7 +305,7 @@ export default function AccessibilityPage() {
             Assessment
           </Link>
         </nav>
-        <p>© ITMonitoring.com — Advisory Services Only</p>
+        <p>© ITMonitoring.com — Independent matching service</p>
       </footer>
     </div>
   )
