@@ -126,6 +126,10 @@ const content: LegalContent = {
       type: "p",
       text: "ITMonitoring.com does not sell your personal information. We share your information with specialists and partners only to provide our matching and referral service, as described in this Privacy Policy.",
     },
+    {
+      type: "p",
+      text: "What we mean by selling versus sharing lead data. To avoid confusion, the following definitions apply throughout this Privacy Policy. Sold lead data (selling) means disclosing or transferring your personal information to a third party in exchange for monetary or other valuable consideration so that the third party may use it for its own independent commercial purposes, such as reselling it, adding it to marketing lists, or marketing unrelated products or services to you; ITMonitoring.com does not sell your personal information and does not engage in this practice. Shared lead data (sharing) means providing the information you submit to one or more selected specialists or partners that we match to your inquiry, solely so they can evaluate and contact you about the specific engagement you requested; this sharing is the core service you ask us to perform when you complete a form or assessment, and it is described in this section.",
+    },
     { type: "section", n: "4", title: "Other Ways We May Share Information" },
     { type: "p", text: "We may also share information:" },
     {
