@@ -116,6 +116,10 @@ const content: LegalContent = {
       type: "p",
       text: "ITMonitoring.com may receive referral fees, marketing fees, lead generation fees, commissions, revenue share, network membership fees, or other compensation from specialists and service partners. Our service is free to you, and we do not take a commission on hours billed by the specialist you choose to engage.",
     },
+    {
+      type: "p",
+      text: "ITMonitoring.com does not sell your personal information. We share your information with specialists and partners only to provide our matching and referral service, as described in this Privacy Policy.",
+    },
     { type: "section", n: "4", title: "Other Ways We May Share Information" },
     { type: "p", text: "We may also share information:" },
     {
@@ -250,7 +254,7 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "Because ITMonitoring.com may share assessment and lead information with third-party specialists and partners and may receive compensation in connection with referrals, marketing, lead generation, network membership, or resulting business relationships, certain privacy laws may treat some information sharing as a “sale” or “sharing” of personal information depending on the circumstances.",
+      text: "Because ITMonitoring.com shares assessment and lead information with third-party specialists and partners so that they may contact you about your engagement, certain privacy laws may treat some of this sharing as “sharing” of personal information depending on the circumstances. ITMonitoring.com does not sell your personal information.",
     },
     { type: "section", n: "14", title: "Notice at Collection" },
     {
