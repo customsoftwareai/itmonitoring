@@ -85,6 +85,8 @@ export function SiteFooter() {
             <Link href="/careers" className="text-gray-400 hover:text-foreground">Careers</Link>
             <Link href="/assessment" className="text-gray-400 hover:text-foreground">Assessment</Link>
             <Link href="/accessibility" className="text-gray-400 hover:text-foreground">Accessibility</Link>
+            <Link href="/privacy" className="text-gray-400 hover:text-foreground">Privacy Policy</Link>
+            <Link href="/terms" className="text-gray-400 hover:text-foreground">Terms of Use</Link>
           </nav>
         </div>
         <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-gray-400 md:flex-row md:items-center">
