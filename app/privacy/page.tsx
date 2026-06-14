@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { LegalPage, type LegalContent } from "@/components/LegalPage"
+import { LegalPage, LegalLink, type LegalContent } from "@/components/LegalPage"
 
 export const metadata: Metadata = {
   title: "Privacy Policy | ITMonitoring.com",
@@ -22,7 +22,13 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "This Privacy Policy should be read together with our Terms of Use, which govern your use of the website and include important disclaimers, limitations of liability, and dispute resolution provisions.",
+      text: (
+        <>
+          This Privacy Policy should be read together with our <LegalLink href="/terms">Terms of Use</LegalLink>, which
+          govern your use of the website and include important disclaimers, limitations of liability, and dispute
+          resolution provisions.
+        </>
+      ),
     },
   ],
   body: [
@@ -115,6 +121,10 @@ const content: LegalContent = {
     {
       type: "p",
       text: "ITMonitoring.com may receive referral fees, marketing fees, lead generation fees, commissions, revenue share, network membership fees, or other compensation from specialists and service partners. Our service is free to you, and we do not take a commission on hours billed by the specialist you choose to engage.",
+    },
+    {
+      type: "p",
+      text: "ITMonitoring.com does not sell your personal information. We share your information with specialists and partners only to provide our matching and referral service, as described in this Privacy Policy.",
     },
     { type: "section", n: "4", title: "Other Ways We May Share Information" },
     { type: "p", text: "We may also share information:" },
@@ -250,7 +260,7 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "Because ITMonitoring.com may share assessment and lead information with third-party specialists and partners and may receive compensation in connection with referrals, marketing, lead generation, network membership, or resulting business relationships, certain privacy laws may treat some information sharing as a “sale” or “sharing” of personal information depending on the circumstances.",
+      text: "Because ITMonitoring.com shares assessment and lead information with third-party specialists and partners so that they may contact you about your engagement, certain privacy laws may treat some of this sharing as “sharing” of personal information depending on the circumstances. ITMonitoring.com does not sell your personal information.",
     },
     { type: "section", n: "14", title: "Notice at Collection" },
     {
@@ -288,7 +298,15 @@ const content: LegalContent = {
     { type: "section", n: "19", title: "Disputes" },
     {
       type: "p",
-      text: "Any dispute, claim, or controversy arising out of or relating to this Privacy Policy, the website, your submitted information, any referral, or any relationship with ITMonitoring.com shall be handled in accordance with the dispute resolution and arbitration provisions contained in the ITMonitoring.com Terms of Use, including the binding arbitration provisions administered by the American Arbitration Association in New York, New York, to the fullest extent permitted by law.",
+      text: (
+        <>
+          Any dispute, claim, or controversy arising out of or relating to this Privacy Policy, the website, your
+          submitted information, any referral, or any relationship with ITMonitoring.com shall be handled in accordance
+          with the dispute resolution and arbitration provisions contained in the ITMonitoring.com{" "}
+          <LegalLink href="/terms">Terms of Use</LegalLink>, including the binding arbitration provisions administered by
+          the American Arbitration Association in New York, New York, to the fullest extent permitted by law.
+        </>
+      ),
     },
     { type: "section", n: "20", title: "Notices" },
     {

@@ -1,10 +1,20 @@
+import type { ReactNode } from "react"
+import Link from "next/link"
 import { SiteNav, SiteFooter } from "@/components/SiteChrome"
 
 type Block =
-  | { type: "p"; text: string }
-  | { type: "ul"; items: string[] }
+  | { type: "p"; text: ReactNode }
+  | { type: "ul"; items: ReactNode[] }
   | { type: "section"; n: string; title: string }
   | { type: "subsection"; title: string }
+
+export function LegalLink({ href, children }: { href: string; children: ReactNode }) {
+  return (
+    <Link href={href} className="text-primary underline-offset-4 hover:underline">
+      {children}
+    </Link>
+  )
+}
 
 export type LegalContent = {
   title: string
