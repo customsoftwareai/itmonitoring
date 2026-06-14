@@ -3,6 +3,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import SkipLinks from "@/components/SkipLinks"
 import AccessibilityMenu from "@/components/AccessibilityMenu"
+import CookieConsent from "@/components/cookie-consent"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
@@ -29,6 +30,7 @@ export default function RootLayout({
         <SkipLinks />
         {children}
         <AccessibilityMenu />
+        <CookieConsent />
       </body>
     </html>
   )
