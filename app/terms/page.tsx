@@ -143,6 +143,10 @@ const content: LegalContent = {
       type: "p",
       text: "You may opt out of marketing communications at any time, but we may still send transactional, administrative, legal, or inquiry-related communications.",
     },
+    {
+      type: "p",
+      text: "Text messaging (SMS). If you provide your mobile number and opt in, you consent to receive text messages from ITMonitoring.com and, where applicable, selected specialists and partners, which may be sent using automated technology, regarding your inquiry, engagement, or related services. Consent to receive text messages is not a condition of any purchase or service. Message and data rates may apply, and message frequency may vary. You can opt out at any time by replying STOP to any text message, and reply HELP for help. We will honor opt-out requests as required by law.",
+    },
     { type: "section", n: "11", title: "Disclaimer of Warranties" },
     {
       type: "p",
