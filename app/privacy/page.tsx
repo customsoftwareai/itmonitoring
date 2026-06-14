@@ -137,7 +137,7 @@ const content: LegalContent = {
         "If required by law, subpoena, court order, legal process, regulator request, or governmental request;",
         "To protect our rights, privacy, safety, users, specialists, partners, website, systems, property, or business;",
         "To investigate suspected fraud, abuse, security incidents, unauthorized access, or unlawful activity;",
-        "In connection with a merger, acquisition, sale, financing, restructuring, bankruptcy, transfer, or other disposition of all or part of our business or assets.",
+        "In connection with a merger, acquisition, financing, reorganization, bankruptcy, or other transfer or disposition of all or part of our business or assets.",
       ],
     },
     { type: "section", n: "5", title: "Cookies and Tracking Technologies" },
@@ -148,6 +148,10 @@ const content: LegalContent = {
     {
       type: "p",
       text: "You may be able to disable cookies through your browser settings, but some website features may not function properly.",
+    },
+    {
+      type: "p",
+      text: "Where required by law, including for visitors located in the European Economic Area or the United Kingdom, we ask for your consent before placing non-essential cookies (such as analytics or advertising cookies), and you may withdraw your consent or change your preferences at any time using the cookie controls provided on the website, where available.",
     },
     { type: "section", n: "6", title: "Analytics and Advertising" },
     {
@@ -188,7 +192,7 @@ const content: LegalContent = {
     { type: "section", n: "10", title: "Your Choices" },
     {
       type: "p",
-      text: "You may contact us to request that we update, correct, or delete certain personal information, subject to legal, operational, contractual, and recordkeeping requirements.",
+      text: "You may contact us to request that we update, correct, or delete certain personal information, subject to legal, operational, contractual, and recordkeeping requirements. You may submit these requests by emailing us at privacy@itmonitoring.com.",
     },
     {
       type: "p",
@@ -197,6 +201,10 @@ const content: LegalContent = {
     {
       type: "p",
       text: "Even if you opt out of marketing communications, we may still send transactional, administrative, legal, or inquiry-related communications.",
+    },
+    {
+      type: "p",
+      text: "Text messages (SMS). If you provide your phone number and opt in to receive text messages, you can opt out at any time by replying STOP to any message; reply HELP for help. Message and data rates may apply, and message frequency may vary. Opting out of text messages will not affect communications sent by other means, such as email or phone.",
     },
     { type: "section", n: "11", title: "Privacy Rights" },
     {
@@ -235,7 +243,19 @@ const content: LegalContent = {
     { type: "p", text: "Complaints. You have the right to lodge a complaint with your local supervisory authority." },
     {
       type: "p",
-      text: "To exercise any of these rights, contact us in accordance with the Notices and Contact sections below.",
+      text: "Data controller. For the purposes of the GDPR and UK GDPR, the data controller responsible for your personal data is Event Media 770 Corp.",
+    },
+    {
+      type: "p",
+      text: "EU/UK representative. Where we are required to designate a representative in the European Union or the United Kingdom under Article 27 of the GDPR or UK GDPR, we will identify that representative in this Privacy Policy and provide their contact details on request.",
+    },
+    {
+      type: "p",
+      text: "Automated decision-making. We do not make decisions that produce legal or similarly significant effects concerning you based solely on automated processing without human involvement; our matching of inquiries to specialists involves human review.",
+    },
+    {
+      type: "p",
+      text: "To exercise any of these rights, contact us at privacy@itmonitoring.com or in accordance with the Notices and Contact sections below.",
     },
     { type: "section", n: "13", title: "California Privacy Notice" },
     {
@@ -248,12 +268,12 @@ const content: LegalContent = {
       items: [
         "Know what categories of personal information we collect;",
         "Know the categories of sources from which personal information is collected;",
-        "Know the business or commercial purposes for collecting, using, disclosing, selling, or sharing personal information;",
+        "Know the business or commercial purposes for collecting, using, disclosing, or sharing personal information;",
         "Know the categories of third parties to whom personal information is disclosed;",
         "Request access to personal information;",
         "Request deletion of personal information;",
         "Request correction of inaccurate personal information;",
-        "Opt out of certain sales or sharing of personal information, where applicable;",
+        "Opt out of certain sharing of personal information, where applicable;",
         "Limit certain uses of sensitive personal information, where applicable;",
         "Not be discriminated against for exercising privacy rights.",
       ],
@@ -261,6 +281,10 @@ const content: LegalContent = {
     {
       type: "p",
       text: "Because ITMonitoring.com shares assessment and lead information with third-party specialists and partners so that they may contact you about your engagement, certain privacy laws may treat some of this sharing as “sharing” of personal information depending on the circumstances. ITMonitoring.com does not sell your personal information.",
+    },
+    {
+      type: "p",
+      text: "Opt-Out Preference Signals. Some browsers and browser extensions let you broadcast an opt-out preference signal, such as the Global Privacy Control (GPC). Where required by applicable law, we will treat a recognized opt-out preference signal as a valid request to opt out of the sharing of personal information sent from that browser or device.",
     },
     { type: "section", n: "14", title: "Notice at Collection" },
     {
@@ -275,6 +299,10 @@ const content: LegalContent = {
     {
       type: "p",
       text: "If we learn that we have collected personal information from a child under 13, we will take reasonable steps to delete it, unless retention is required or permitted by law.",
+    },
+    {
+      type: "p",
+      text: "If you are located in the European Economic Area or the United Kingdom, the minimum age for consent to processing may be higher (up to 16, depending on your country), and we do not knowingly process the personal data of children below the applicable age without appropriate consent.",
     },
     { type: "section", n: "16", title: "International Users" },
     {
@@ -315,7 +343,7 @@ const content: LegalContent = {
     },
     {
       type: "ul",
-      items: ["Event Media 770 Corp.", "Address for Notices", "PO Box 597", "Lawrence, NY 11516-2242"],
+      items: ["Event Media 770 Corp.", "PO Box 597", "Lawrence, NY 11516-2242"],
     },
     {
       type: "p",
@@ -323,7 +351,7 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "For general privacy inquiries or privacy requests, you may contact ITMonitoring.com through the contact methods provided on the website. General business or privacy communications do not replace the certified mail notice requirement for legal notices.",
+      text: "For general privacy inquiries or privacy requests, you may contact ITMonitoring.com at privacy@itmonitoring.com or through the contact methods provided on the website. General business or privacy communications do not replace the certified mail notice requirement for legal notices.",
     },
     { type: "section", n: "21", title: "Company Information" },
     { type: "p", text: "ITMonitoring.com is owned and operated by:" },
@@ -334,7 +362,7 @@ const content: LegalContent = {
     { type: "section", n: "22", title: "Contact Us" },
     {
       type: "p",
-      text: "For general questions about this Privacy Policy, contact us through the contact information provided on the ITMonitoring.com website.",
+      text: "For general questions about this Privacy Policy, contact us at privacy@itmonitoring.com or through the contact information provided on the ITMonitoring.com website.",
     },
     { type: "p", text: "Legal notices must be sent in accordance with the Notices section above." },
   ],
