@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { LegalPage, type LegalContent } from "@/components/LegalPage"
+import { LegalPage, LegalLink, type LegalContent } from "@/components/LegalPage"
 
 export const metadata: Metadata = {
   title: "Privacy Policy | ITMonitoring.com",
@@ -22,7 +22,13 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "This Privacy Policy should be read together with our Terms of Use, which govern your use of the website and include important disclaimers, limitations of liability, and dispute resolution provisions.",
+      text: (
+        <>
+          This Privacy Policy should be read together with our <LegalLink href="/terms">Terms of Use</LegalLink>, which
+          govern your use of the website and include important disclaimers, limitations of liability, and dispute
+          resolution provisions.
+        </>
+      ),
     },
   ],
   body: [
@@ -292,7 +298,15 @@ const content: LegalContent = {
     { type: "section", n: "19", title: "Disputes" },
     {
       type: "p",
-      text: "Any dispute, claim, or controversy arising out of or relating to this Privacy Policy, the website, your submitted information, any referral, or any relationship with ITMonitoring.com shall be handled in accordance with the dispute resolution and arbitration provisions contained in the ITMonitoring.com Terms of Use, including the binding arbitration provisions administered by the American Arbitration Association in New York, New York, to the fullest extent permitted by law.",
+      text: (
+        <>
+          Any dispute, claim, or controversy arising out of or relating to this Privacy Policy, the website, your
+          submitted information, any referral, or any relationship with ITMonitoring.com shall be handled in accordance
+          with the dispute resolution and arbitration provisions contained in the ITMonitoring.com{" "}
+          <LegalLink href="/terms">Terms of Use</LegalLink>, including the binding arbitration provisions administered by
+          the American Arbitration Association in New York, New York, to the fullest extent permitted by law.
+        </>
+      ),
     },
     { type: "section", n: "20", title: "Notices" },
     {

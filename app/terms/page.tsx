@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { LegalPage, type LegalContent } from "@/components/LegalPage"
+import { LegalPage, LegalLink, type LegalContent } from "@/components/LegalPage"
 
 export const metadata: Metadata = {
   title: "Terms of Use | ITMonitoring.com",
@@ -22,7 +22,13 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "Your use of the website and submission of information are also subject to our Privacy Policy, which explains how we collect, use, disclose, share, and protect information.",
+      text: (
+        <>
+          Your use of the website and submission of information are also subject to our{" "}
+          <LegalLink href="/privacy">Privacy Policy</LegalLink>, which explains how we collect, use, disclose, share,
+          and protect information.
+        </>
+      ),
     },
   ],
   body: [
@@ -272,14 +278,67 @@ const content: LegalContent = {
       type: "p",
       text: "If any part of this arbitration section is found to be invalid or unenforceable, the remaining portions shall remain in full force and effect to the fullest extent permitted by law. If the class action waiver is found to be invalid or unenforceable as to a particular claim or request for relief, then that claim or request for relief shall proceed in court and not in arbitration, unless otherwise permitted by law.",
     },
-    { type: "section", n: "18", title: "Notices" },
+    { type: "subsection", title: "17.12 Your Right to Opt Out of Arbitration" },
+    {
+      type: "p",
+      text: "You may opt out of the agreement to arbitrate in this Section 17 by sending written notice to ITMonitoring.com within thirty (30) days after you first accept these Terms. Your notice must include your name, the email address and mailing address associated with your use of the website, and a clear statement that you wish to opt out of arbitration, and must be sent to legal@itmonitoring.com or by certified mail to the address in the Notices section. If you opt out, the jury trial waiver and class action waiver in this Section 17 will not apply to you, but all other provisions of these Terms will remain in effect. Opting out of arbitration will not affect any other aspect of your relationship with ITMonitoring.com.",
+    },
+    { type: "section", n: "18", title: "General Provisions" },
+    {
+      type: "p",
+      text: "18.1 Modifications to and Availability of the Website. We may change, suspend, limit, or discontinue the website, or any feature or content, at any time and without notice. We do not guarantee that the website will always be available or available in any particular location.",
+    },
+    {
+      type: "p",
+      text: "18.2 Termination and Suspension of Access. We may suspend, restrict, or terminate your access to the website at any time, with or without notice, including if we believe you have violated these Terms or applicable law.",
+    },
+    {
+      type: "p",
+      text: (
+        <>
+          18.3 Entire Agreement. These Terms, together with our{" "}
+          <LegalLink href="/privacy">Privacy Policy</LegalLink> and any notices posted on the website, constitute the
+          entire agreement between you and ITMonitoring.com regarding the website and supersede any prior or
+          contemporaneous agreements or understandings on that subject.
+        </>
+      ),
+    },
+    {
+      type: "p",
+      text: "18.4 Severability. If any provision of these Terms is held to be invalid or unenforceable, that provision will be limited or eliminated to the minimum extent necessary, and the remaining provisions will remain in full force and effect.",
+    },
+    {
+      type: "p",
+      text: "18.5 Assignment. You may not assign or transfer these Terms, or any rights or obligations under them, without our prior written consent. We may assign these Terms, in whole or in part, without restriction.",
+    },
+    {
+      type: "p",
+      text: "18.6 No Waiver. Our failure to enforce any provision of these Terms is not a waiver of that provision or of our right to enforce it later.",
+    },
+    {
+      type: "p",
+      text: "18.7 Force Majeure. We are not liable for any delay or failure to perform resulting from causes beyond our reasonable control, including acts of God, natural disasters, outages, failures of third-party services, labor disputes, or governmental actions.",
+    },
+    {
+      type: "p",
+      text: "18.8 Survival. Provisions that by their nature should survive termination of these Terms will survive, including disclaimers, limitations of liability, indemnification, intellectual property terms, and dispute resolution provisions.",
+    },
+    {
+      type: "p",
+      text: "18.9 Electronic Communications and Records. You consent to receive communications, agreements, and notices from us electronically, and you agree that electronic communications and records satisfy any legal requirement that such communications or records be in writing.",
+    },
+    {
+      type: "p",
+      text: "18.10 Headings. Section headings are for convenience only and do not affect the interpretation of these Terms.",
+    },
+    { type: "section", n: "19", title: "Notices" },
     {
       type: "p",
       text: "All legal notices to ITMonitoring.com or Event Media 770 Corp. must be sent by certified mail, return receipt requested, to the following address:",
     },
     {
       type: "ul",
-      items: ["Event Media 770 Corp.", "Address for Notices", "PO Box 597", "Lawrence, NY 11516-2242"],
+      items: ["Event Media 770 Corp.", "PO Box 597", "Lawrence, NY 11516-2242"],
     },
     {
       type: "p",
@@ -287,18 +346,18 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "For general business inquiries, you may contact ITMonitoring.com through the contact methods provided on the website. General business communications do not replace the certified mail notice requirement for legal notices.",
+      text: "For general business inquiries, you may contact ITMonitoring.com at legal@itmonitoring.com or through the contact methods provided on the website. General business communications do not replace the certified mail notice requirement for legal notices.",
     },
-    { type: "section", n: "19", title: "Company Information" },
+    { type: "section", n: "20", title: "Company Information" },
     { type: "p", text: "ITMonitoring.com is owned and operated by:" },
     {
       type: "ul",
       items: ["Event Media 770 Corp.", "499 Chestnut Street", "Cedarhurst, NY 11516"],
     },
-    { type: "section", n: "20", title: "Contact Us" },
+    { type: "section", n: "21", title: "Contact Us" },
     {
       type: "p",
-      text: "For general questions about these Terms, contact us through the contact information provided on the ITMonitoring.com website.",
+      text: "For general questions about these Terms, contact us at legal@itmonitoring.com or through the contact information provided on the ITMonitoring.com website.",
     },
     { type: "p", text: "Legal notices must be sent in accordance with the Notices section above." },
   ],
