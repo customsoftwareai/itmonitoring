@@ -47,7 +47,7 @@ export default function RootLayout({
         </Script>
         {/* Zoho SalesIQ — visitor tracking (chat widget hidden) */}
         <Script id="zsiq-init" strategy="afterInteractive">
-          {`window.$zoho=window.$zoho||{ready:function(){$zoho.salesiq.floatbutton.visible("hide");}};`}
+          {`window.$zoho=window.$zoho||{};$zoho.salesiq=$zoho.salesiq||{ready:function(){$zoho.salesiq.floatbutton.visible("hide");}};`}
         </Script>
         <Script
           id="zsiqscript"
