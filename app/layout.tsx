@@ -32,6 +32,19 @@ export default function RootLayout({
         {children}
         <AccessibilityMenu />
         <CookieConsent />
+        {/* Google Analytics (GA4) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-T1G2DDCNGG"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-T1G2DDCNGG');
+          `}
+        </Script>
         {/* Zoho SalesIQ — visitor tracking (chat widget hidden) */}
         <Script id="zsiq-init" strategy="afterInteractive">
           {`window.$zoho=window.$zoho||{};$zoho.salesiq=$zoho.salesiq||{ready:function(){$zoho.salesiq.floatbutton.visible("hide");}};`}
