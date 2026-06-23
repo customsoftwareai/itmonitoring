@@ -4,7 +4,7 @@ import { SiteNav, SiteFooter } from "@/components/SiteChrome"
 export const metadata: Metadata = {
   title: "IT Monitoring Assessment — ITMonitoring.com",
   description:
-    "Take the IT Monitoring Health Check and Visibility Assessment. We'll connect you with a vetted specialist suited to your environment — no obligation.",
+    "Take the IT Monitoring Health Check and Visibility Assessment. We'll connect you with a specialist suited to your environment — no obligation.",
 }
 
 export default function AssessmentPage() {
@@ -20,7 +20,7 @@ export default function AssessmentPage() {
               IT Monitoring Assessment
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              Answer a few questions about your monitoring visibility. Choose the 2-minute express or the deeper full assessment — then we'll connect you with the right vetted specialist. No obligation.
+              Answer a few questions about your monitoring visibility. Choose the 2-minute express or the deeper full assessment — then we'll connect you with the right specialist. No obligation.
             </p>
           </div>
         </section>
