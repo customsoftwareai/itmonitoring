@@ -9,11 +9,11 @@ const FAQS = [
   },
   {
     q: "If it's free for me, how does ITMonitoring.com make money?",
-    a: "Our vetted specialists pay us a referral fee when we introduce them to a client. That's the entire model — it's how the service stays free for the IT leaders we work with, and it means you never pay us anything. We match you on fit, for your environment, not on who pays us most.",
+    a: "Our specialists pay us a referral fee when we introduce them to a client. That's the entire model — it's how the service stays free for the IT leaders we work with, and it means you never pay us anything. We match you on fit, for your environment, not on who pays us most.",
   },
   {
     q: "Does ITMonitoring.com provide the monitoring service itself?",
-    a: "No. We're an independent matching service. We don't sell tools, software, or consulting, and we don't do the technical work ourselves. What we do is connect you with vetted specialists who analyze your stack and help solve your infrastructure and monitoring challenges. You're told that upfront, every time.",
+    a: "No. We're an independent matching service. We don't sell tools, software, or consulting, and we don't do the technical work ourselves. What we do is connect you with specialists who analyze your stack and help solve your infrastructure and monitoring challenges. You're told that upfront, every time.",
   },
   {
     q: "How does the matching process work?",
@@ -32,8 +32,8 @@ const FAQS = [
     a: "Yes. Our specialists serve clients remotely across borders, so we can make relevant introductions regardless of where your team is based.",
   },
   {
-    q: "How are specialists vetted?",
-    a: "Specialists join our network through an application and review process focused on real, hands-on monitoring and infrastructure experience — so the introductions you receive are relevant and credible, not cold vendor outreach.",
+    q: "How do you choose which specialists to introduce?",
+    a: "We're an independent matching service — not a vetting, certification, or background-check service. We don't screen, verify, or endorse specialists, and we don't guarantee their work. We match you based on the experience specialists describe and the needs you share, then make the introduction so you can evaluate them and decide for yourself. Any due diligence is always yours.",
   },
 ]
 
