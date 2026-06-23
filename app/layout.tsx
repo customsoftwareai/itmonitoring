@@ -9,9 +9,9 @@ import CookieConsent from "@/components/cookie-consent"
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
-  title: "ITMonitoring.com — Connecting IT leaders with vetted specialists",
+  title: "ITMonitoring.com — Connecting IT leaders with independent specialists",
   description:
-    "An independent matching service that connects IT leaders with vetted specialists to solve infrastructure & monitoring challenges.",
+    "An independent matching service that connects IT leaders with independent specialists to solve infrastructure & monitoring challenges.",
 }
 
 export const viewport: Viewport = {
