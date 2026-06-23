@@ -76,7 +76,7 @@ export function SiteFooter() {
           <div className="max-w-sm">
             <Logo />
             <p className="mt-4 text-sm leading-relaxed text-gray-400">
-              An independent matching service that connects IT leaders with vetted specialists to solve infrastructure &amp; monitoring challenges.
+              An independent matching service that connects IT leaders with independent specialists to solve infrastructure &amp; monitoring challenges.
             </p>
           </div>
           <nav aria-label="Footer navigation" className="grid grid-cols-2 gap-x-12 gap-y-3 text-sm">
