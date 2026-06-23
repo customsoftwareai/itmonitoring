@@ -39,6 +39,10 @@ const content: LegalContent = {
     },
     {
       type: "p",
+      text: "ITMonitoring.com does not vet, screen, verify, certify, endorse, or guarantee any specialist, partner, or service provider. We do not independently confirm the credentials, qualifications, experience, references, background, work history, licensing, insurance, or quality of any specialist. Specialists are included in our network based on the information they provide about themselves, and any match is based on that self-described experience and stated fit. You are solely responsible for evaluating, verifying, and selecting any specialist, and for conducting your own due diligence before engaging them.",
+    },
+    {
+      type: "p",
       text: "ITMonitoring.com may collect information from prospective customers and share that information with selected third-party specialists, consultants, boutique monitoring firms, monitoring and observability platforms, technology vendors, service providers, or other business partners who may be able to assist with the requested engagement.",
     },
     {
