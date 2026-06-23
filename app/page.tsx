@@ -3,7 +3,7 @@ import { SiteNav, SiteFooter } from "@/components/SiteChrome"
 import { Faq } from "@/components/Faq"
 
 const TAGLINE =
-  "Connecting IT leaders with vetted specialists to solve infrastructure & monitoring challenges"
+  "Connecting IT leaders with independent specialists to solve infrastructure & monitoring challenges"
 
 function Icon({ path }: { path: React.ReactNode }) {
   return (
@@ -53,7 +53,7 @@ export default function HomePage() {
             </span>
             <h1 className="mt-6 text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
               Your monitoring blind spots,
-              <span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">solved by vetted specialists.</span>
+              <span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">matched with the right specialist.</span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
               {TAGLINE}. We make the introduction — you keep control, with no obligation and nothing to buy from us.
@@ -118,7 +118,7 @@ export default function HomePage() {
               </span>
               <h2 className="mt-6 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">What does it cost you? Nothing.</h2>
               <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-                Getting matched and talking to a specialist is completely free — no fee, no markup, no subscription on your side, ever. Our vetted specialists pay us a referral fee when we introduce them, which is how the service stays free for the IT leaders we work with.
+                Getting matched and talking to a specialist is completely free — no fee, no markup, no subscription on your side, ever. Our specialists pay us a referral fee when we introduce them, which is how the service stays free for the IT leaders we work with.
               </p>
               <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
                 The only thing you would ever pay goes to a specialist directly — and only if you choose to engage one. We match you on fit, the right specialist for your environment, never on who pays us most.
@@ -136,10 +136,10 @@ export default function HomePage() {
         <section id="specialists" className="scroll-mt-20 mx-auto max-w-6xl px-6 py-20 md:py-24">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
-              <span className="text-sm font-semibold uppercase tracking-wider text-primary">Vetted specialists</span>
+              <span className="text-sm font-semibold uppercase tracking-wider text-primary">Independent specialists</span>
               <h2 className="mt-3 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">Depth across every layer of your stack</h2>
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-                Our network is made up of specialists with real, hands-on experience — so the introductions you receive are relevant and credible. We match you to the right expertise for your specific environment.
+                Our network spans specialists across every layer of the monitoring stack. We match you on fit — the right expertise for your specific environment — and you evaluate each introduction directly.
               </p>
               <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.02] p-6">
                 <p className="text-base font-semibold text-foreground">Are you an IT monitoring specialist?</p>
@@ -171,7 +171,7 @@ export default function HomePage() {
               </span>
               <h2 className="mt-5 text-2xl font-semibold tracking-tight text-foreground md:text-3xl">Transparent by design</h2>
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-                ITMonitoring.com is an independent matching service — not a provider of tools, software, or consulting. We don't do the technical work ourselves. What we do is make the right introduction, pairing you with vetted specialists suited to your environment. You're told that upfront, every time.
+                ITMonitoring.com is an independent matching service — not a provider of tools, software, or consulting. We don't do the technical work ourselves. What we do is make the right introduction, pairing you with specialists suited to your environment. You're told that upfront, every time.
               </p>
             </div>
           </div>
