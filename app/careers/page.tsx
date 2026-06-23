@@ -4,7 +4,7 @@ import { SiteNav, SiteFooter } from "@/components/SiteChrome"
 export const metadata: Metadata = {
   title: "Careers — Join our network of IT monitoring specialists | ITMonitoring.com",
   description:
-    "Apply to join ITMonitoring.com's network of vetted IT monitoring specialists. Get matched with IT leaders who need your expertise.",
+    "Apply to join ITMonitoring.com's network of independent IT monitoring specialists. Get matched with IT leaders who need your expertise.",
 }
 
 const PERKS = [
@@ -35,7 +35,7 @@ export default function CareersPage() {
               Join our network of IT monitoring specialists
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              We connect vetted specialists with IT leaders who need help solving real infrastructure and monitoring challenges. If that's you, we'd like to meet you.
+              We connect independent specialists with IT leaders who need help solving real infrastructure and monitoring challenges. If that's you, we'd like to meet you.
             </p>
           </div>
         </section>
