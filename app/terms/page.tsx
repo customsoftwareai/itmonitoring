@@ -35,7 +35,7 @@ const content: LegalContent = {
     { type: "section", n: "1", title: "About ITMonitoring.com" },
     {
       type: "p",
-      text: "ITMonitoring.com is an independent, referral-based matching service that connects IT leaders and organizations with vetted IT monitoring and observability specialists. We provide business intake, research, matching, referral, lead generation, and business development services for individuals and organizations seeking help with infrastructure monitoring, observability, alert optimization, application and network performance monitoring, logging, and related IT monitoring needs.",
+      text: "ITMonitoring.com is an independent, referral-based matching service that connects IT leaders and organizations with independent IT monitoring and observability specialists. We provide business intake, research, matching, referral, lead generation, and business development services for individuals and organizations seeking help with infrastructure monitoring, observability, alert optimization, application and network performance monitoring, logging, and related IT monitoring needs.",
     },
     {
       type: "p",
