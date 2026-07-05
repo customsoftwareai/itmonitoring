@@ -66,7 +66,7 @@ Take the 2-minute assessment
 See how it works
 </Link>
 </div>
-<p className="mt-6 text-sm font-medium text-muted-foreground">Free for IT leaders · No obligation · Monitoring & Observability only</p>
+<p className="mt-6 text-sm font-medium text-muted-foreground">The assessment maps your monitoring & observability environment, so we can match you with the specialist who best fits your stack — free, no obligation.</p>
 </div>
 </section>
 
