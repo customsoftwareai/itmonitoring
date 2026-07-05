@@ -17,11 +17,11 @@ a: "No. We're a staff augmentation network built only for monitoring and observa
 },
 {
 q: "How does the matching process work?",
-a: "You start with a short assessment that surfaces where your monitoring has gaps — downtime exposure, blind spots, alert noise, or tool sprawl. From there, we research your environment and introduce you to the two best-matched specialists, with a clear read on how each one fits. Both work only in monitoring and observability, and once you choose, the specialist embeds with your team. There's no obligation, and nothing to buy from us.",
+a: "You start with a short assessment that surfaces where your monitoring has gaps — downtime exposure, blind spots, alert noise, or tool sprawl — plus space to describe your environment in your own words. Based on what you share, we match you to the two or three specialists who best fit your stack, with a clear read on how each one fits. All work only in monitoring and observability, and once you choose, the specialist embeds with your team. There's no obligation, and nothing to buy from us.",
 },
 {
 q: "How many specialists will you introduce me to?",
-a: "Usually two. We research your environment and narrow it down to the two best-matched specialists, then explain how each one fits so you can choose with confidence. If neither is right, just tell us and we'll dig deeper until we find the right person — we're not a directory that hands you a list and walks away.",
+a: "Usually two or three. Based on your assessment, we match you to the specialists who best fit what you described, then explain how each one fits so you can choose with confidence. If none is right, just tell us and we'll dig deeper until we find the right person — we're not a directory that hands you a list and walks away.",
 },
 {
 q: "What kinds of problems do the specialists handle?",
