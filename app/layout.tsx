@@ -9,9 +9,25 @@ import CookieConsent from "@/components/cookie-consent"
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
-  title: "ITMonitoring.com — Connecting IT leaders with independent specialists",
+  metadataBase: new URL("https://itmonitoring.com"),
+  title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
   description:
-    "An independent matching service that connects IT leaders with independent specialists to solve infrastructure & monitoring challenges.",
+    "Staff augmentation exclusively for IT monitoring and observability. We place independent specialists who embed with your team when coverage gets stretched. Free to IT leaders.",
+  openGraph: {
+    title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
+    description:
+      "Staff augmentation exclusively for IT monitoring and observability. Independent specialists who embed with your team when coverage gets stretched. Free to IT leaders.",
+    url: "https://itmonitoring.com",
+    siteName: "ITMonitoring.com",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
+    description:
+      "Staff augmentation exclusively for IT monitoring and observability. Independent specialists who embed with your team. Free to IT leaders.",
+  },
 }
 
 export const viewport: Viewport = {

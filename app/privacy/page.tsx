@@ -90,12 +90,12 @@ const content: LegalContent = {
       items: [
         "To review and respond to your inquiry or assessment;",
         "To understand your infrastructure monitoring, observability, alerting, and reliability needs;",
-        "To research your stated environment and evaluate whether your inquiry may be appropriate for one or more specialists or partners;",
-        "To match you with relevant IT monitoring specialists, observability consultants, boutique monitoring firms, monitoring and observability platforms, technology vendors, or other service providers;",
-        "To share your information with selected specialists and partners who may contact you about your engagement;",
+        "To review the information you provide and assess whether your inquiry may be appropriate for one or more independent specialists;",
+        "To match you with independent IT monitoring and observability specialists;",
+        "To share your information with the independent specialists we match to your inquiry so they may contact you about your engagement;",
         "To communicate with you about your engagement, inquiry, or related services;",
-        "To provide research, matching, referral, lead intake, business development, or related services;",
-        "To evaluate, vet, and onboard specialists who apply to join our network;",
+        "To provide our matching, referral, and introduction services;",
+        "To receive and process applications from specialists who apply to join our network;",
         "To operate, maintain, improve, and secure the website;",
         "To improve our forms, content, processes, services, and specialist network;",
         "To manage business records, CRM data, lead tracking, and referral records;",
@@ -108,19 +108,19 @@ const content: LegalContent = {
     { type: "section", n: "3", title: "Sharing Information with Specialists and Partners" },
     {
       type: "p",
-      text: "Because ITMonitoring.com operates as an independent intake, research, matching, referral, and business development service, we may share your submitted information with selected third-party specialists and partners who may be able to help with your engagement.",
+      text: "Because ITMonitoring.com operates as a staff augmentation network that matches IT leaders with independent monitoring and observability specialists, we may share your submitted information with the independent specialists we match to your inquiry so they can help with your engagement.",
     },
     {
       type: "p",
-      text: "These specialists and partners may include independent IT monitoring consultants, observability specialists, boutique monitoring firms, application performance monitoring (APM) experts, network and infrastructure monitoring practitioners, logging and SIEM specialists, monitoring and observability platforms, technology vendors, implementation firms, or related service providers.",
+      text: "These independent specialists work exclusively in monitoring and observability and may include infrastructure and server monitoring specialists, network monitoring specialists, application performance monitoring (APM) experts, cloud and Kubernetes observability specialists, logging and SIEM specialists, and database monitoring specialists.",
     },
     {
       type: "p",
-      text: "By submitting your information, you authorize ITMonitoring.com to share your information with such specialists and partners so they may evaluate your inquiry and contact you regarding your engagement or related services. Typically, we narrow recommendations to a small number of best-matched specialists and secure their availability before introducing them to you.",
+      text: "By submitting your information, you authorize ITMonitoring.com to share your information with such independent specialists so they may evaluate your inquiry and contact you regarding your engagement. Typically, we introduce you to the two or three specialists who best fit the needs you describe, and we may confirm their availability before introducing them to you.",
     },
     {
       type: "p",
-      text: "ITMonitoring.com may receive referral fees, marketing fees, lead generation fees, commissions, revenue share, network membership fees, or other compensation from specialists and service partners. Our service is free to you, and we do not take a commission on hours billed by the specialist you choose to engage.",
+      text: "ITMonitoring.com is paid a referral fee, and may receive network membership fees, by the independent specialists in our network. Our service is free to you, and we do not take a commission on hours billed by the specialist you choose to engage.",
     },
     {
       type: "p",
@@ -169,7 +169,7 @@ const content: LegalContent = {
     { type: "section", n: "7", title: "Referral and Compensation Disclosure" },
     {
       type: "p",
-      text: "ITMonitoring.com may receive compensation from third-party specialists and service partners in connection with referrals, leads, introductions, engagement opportunities, network membership, or resulting business relationships.",
+      text: "ITMonitoring.com may receive compensation from the independent specialists in our network in connection with referrals, introductions, engagement opportunities, or network membership.",
     },
     {
       type: "p",
@@ -284,7 +284,7 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "Because ITMonitoring.com shares assessment and lead information with third-party specialists and partners so that they may contact you about your engagement, certain privacy laws may treat some of this sharing as “sharing” of personal information depending on the circumstances. ITMonitoring.com does not sell your personal information.",
+      text: "Because ITMonitoring.com shares assessment information with the independent specialists we match to your inquiry so that they may contact you about your engagement, certain privacy laws may treat some of this sharing as “sharing” of personal information depending on the circumstances. ITMonitoring.com does not sell your personal information.",
     },
     {
       type: "p",
@@ -293,7 +293,7 @@ const content: LegalContent = {
     { type: "section", n: "14", title: "Notice at Collection" },
     {
       type: "p",
-      text: "At or before the point where we collect information, we may provide a notice explaining that we collect contact information, business and infrastructure information, monitoring and engagement information, communications information, and website usage information for the purposes of responding to inquiries, researching and evaluating your monitoring needs, matching you with potential specialists and service providers, operating the website, communicating about related services, and managing referral relationships.",
+      text: "At or before the point where we collect information, we may provide a notice explaining that we collect contact information, business and infrastructure information, monitoring and engagement information, communications information, and website usage information for the purposes of responding to inquiries, reviewing and assessing your monitoring needs, matching you with independent specialists, operating the website, communicating about related services, and managing referral relationships.",
     },
     { type: "section", n: "15", title: "Children’s Privacy" },
     {

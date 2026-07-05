@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 const PERKS = [
-  { title: "Warm, relevant introductions", body: "We connect you with IT leaders who already have a defined monitoring or infrastructure need — no cold outreach." },
+  { title: "Warm, relevant introductions", body: "We connect you with IT leaders who already have a defined monitoring or observability need — no cold outreach." },
   { title: "Work the way you want", body: "Full-time, part-time, or project-based. Engagements are arranged directly between you and the client." },
   { title: "Global, remote-first", body: "Serve clients across borders. Your expertise isn't limited by geography." },
 ]
@@ -35,7 +35,7 @@ export default function CareersPage() {
               Join our network of IT monitoring specialists
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              We connect independent specialists with IT leaders who need help solving real infrastructure and monitoring challenges. If that's you, we'd like to meet you.
+              We connect independent specialists with IT leaders who need help solving real monitoring and observability challenges. If that's you, we'd like to meet you.
             </p>
           </div>
         </section>
