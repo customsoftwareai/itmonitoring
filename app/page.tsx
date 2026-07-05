@@ -3,7 +3,7 @@ import { SiteNav, SiteFooter } from "@/components/SiteChrome"
 import { Faq } from "@/components/Faq"
 
 const TAGLINE =
-"We place an independent specialist alongside your team when monitoring coverage gets stretched — one who already lives in observability and gets fluent in your stack fast"
+"We place an independent specialist alongside your team when Monitoring coverage gets stretched — one who already lives in Observability and gets fluent in your stack fast"
 
 function Icon({ path }: { path: React.ReactNode }) {
 return (
