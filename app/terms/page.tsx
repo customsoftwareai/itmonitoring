@@ -35,7 +35,7 @@ const content: LegalContent = {
     { type: "section", n: "1", title: "About ITMonitoring.com" },
     {
       type: "p",
-      text: "ITMonitoring.com is an independent, referral-based matching service that connects IT leaders and organizations with independent IT monitoring and observability specialists. We provide business intake, research, matching, referral, lead generation, and business development services for individuals and organizations seeking help with infrastructure monitoring, observability, alert optimization, application and network performance monitoring, logging, and related IT monitoring needs.",
+      text: "ITMonitoring.com is a referral-based staff augmentation network that connects IT leaders and organizations with independent IT monitoring and observability specialists. We provide intake, matching, referral, and introduction services for individuals and organizations seeking help with infrastructure monitoring, observability, alert optimization, application and network performance monitoring, logging, and related IT monitoring needs.",
     },
     {
       type: "p",
@@ -43,11 +43,11 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "ITMonitoring.com may collect information from prospective customers and share that information with selected third-party specialists, consultants, boutique monitoring firms, monitoring and observability platforms, technology vendors, service providers, or other business partners who may be able to assist with the requested engagement.",
+      text: "ITMonitoring.com may collect information from prospective customers and share that information with the independent monitoring and observability specialists we match to the requested engagement.",
     },
     {
       type: "p",
-      text: "Unless expressly stated in a separate written agreement signed by ITMonitoring.com, ITMonitoring.com does not guarantee that it will personally design, implement, configure, host, maintain, manage, or deliver any monitoring system, observability solution, software, or related service. Our service is free for IT leaders, and we are compensated by specialists and service partners through referral fees.",
+      text: "Unless expressly stated in a separate written agreement signed by ITMonitoring.com, ITMonitoring.com does not itself design, implement, configure, host, maintain, manage, or deliver any monitoring system, observability solution, software, or related service; that work is performed by the independent specialist you choose to engage. Our service is free for IT leaders, and we are compensated by the independent specialists in our network through referral fees.",
     },
     { type: "section", n: "2", title: "No Guarantee of Specialist Engagement or Project Results" },
     { type: "p", text: "Submitting information through ITMonitoring.com does not guarantee that:" },
@@ -66,18 +66,18 @@ const content: LegalContent = {
       type: "p",
       text: "Any services provided by a third-party specialist or partner are subject to that specialist’s or partner’s own agreements, pricing, qualifications, timelines, scope of work, warranties, limitations, data practices, intellectual property terms, support policies, and business practices.",
     },
-    { type: "section", n: "3", title: "Referral and Lead Sharing Disclosure" },
+    { type: "section", n: "3", title: "Referral and Information Sharing Disclosure" },
     {
       type: "p",
-      text: "By submitting a form, completing an assessment, requesting information, scheduling a consultation, or otherwise providing your information to ITMonitoring.com, you authorize ITMonitoring.com to review your information and, where appropriate, share it with one or more selected third-party specialists or partners who may contact you about your engagement or related services.",
+      text: "By submitting a form, completing an assessment, requesting information, scheduling a consultation, or otherwise providing your information to ITMonitoring.com, you authorize ITMonitoring.com to review your information and, where appropriate, share it with one or more independent specialists we match to your inquiry who may contact you about your engagement.",
     },
     {
       type: "p",
-      text: "ITMonitoring.com may receive referral fees, marketing fees, lead generation fees, commissions, revenue share, network membership fees, or other compensation from specialists and service partners if you are referred to them, communicate with them, purchase from them, engage them, or enter into a business relationship with them.",
+      text: "ITMonitoring.com may receive referral fees, and may receive network membership fees, from the independent specialists in our network if you are referred to them, communicate with them, engage them, or enter into a business relationship with them.",
     },
     {
       type: "p",
-      text: "You understand and agree that ITMonitoring.com may have a financial or business relationship with the specialists and partners to whom your information is referred. Our service is free to you; we do not take a commission on hours billed by the specialist you choose to engage.",
+      text: "You understand and agree that ITMonitoring.com may have a financial or business relationship with the independent specialists to whom your information is referred. Our service is free to you; we do not take a commission on hours billed by the specialist you choose to engage.",
     },
     { type: "section", n: "4", title: "No Professional Advice" },
     {
@@ -141,7 +141,7 @@ const content: LegalContent = {
     { type: "section", n: "10", title: "Communications Consent" },
     {
       type: "p",
-      text: "By submitting your contact information, you authorize ITMonitoring.com and, where applicable, selected specialists and partners to contact you by email, phone, text message, voicemail, postal mail, or other communication methods regarding your inquiry, engagement, requested services, or related business offerings.",
+      text: "By submitting your contact information, you authorize ITMonitoring.com and, where applicable, the independent specialists we match to your inquiry to contact you by email, phone, text message, voicemail, postal mail, or other communication methods regarding your inquiry, engagement, or requested services.",
     },
     {
       type: "p",
@@ -149,7 +149,7 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "Text messaging (SMS). If you provide your mobile number and opt in, you consent to receive text messages from ITMonitoring.com and, where applicable, selected specialists and partners, which may be sent using automated technology, regarding your inquiry, engagement, or related services. Consent to receive text messages is not a condition of any purchase or service. Message and data rates may apply, and message frequency may vary. You can opt out at any time by replying STOP to any text message, and reply HELP for help. We will honor opt-out requests as required by law.",
+      text: "Text messaging (SMS). If you provide your mobile number and opt in, you consent to receive text messages from ITMonitoring.com and, where applicable, the independent specialists we match to your inquiry, which may be sent using automated technology, regarding your inquiry, engagement, or related services. Consent to receive text messages is not a condition of any purchase or service. Message and data rates may apply, and message frequency may vary. You can opt out at any time by replying STOP to any text message, and reply HELP for help. We will honor opt-out requests as required by law.",
     },
     { type: "section", n: "11", title: "Disclaimer of Warranties" },
     {
