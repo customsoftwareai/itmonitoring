@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: "20"
       - name: Install linters
-        run: npm install --no-save eslint@9 eslint-plugin-jsx-a11y@6 "@typescript-eslint/parser@8"
+        run: npm install --no-save --legacy-peer-deps eslint@9 eslint-plugin-jsx-a11y@6 "@typescript-eslint/parser@8"
       - name: Run jsx-a11y lint
         run: npx eslint --config eslint.a11y.config.mjs "app/**/*.{ts,tsx}" "components/**/*.{ts,tsx}"
 
