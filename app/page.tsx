@@ -49,11 +49,11 @@ return (
 <div className="pointer-events-none absolute left-1/2 top-[-10%] h-[520px] w-[820px] -translate-x-1/2 rounded-full bg-primary/20 blur-[140px]" aria-hidden="true" />
 <div className="relative mx-auto max-w-4xl px-6 pb-24 pt-20 text-center md:pt-28">
 <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-4 py-1.5 text-xs font-medium text-muted-foreground">
-<span className="h-1.5 w-1.5 rounded-full bg-primary" /> Independent specialists · Monitoring & observability only
+<span className="h-1.5 w-1.5 rounded-full bg-primary" /> Independent specialists · Monitoring & Observability only
 </span>
 <h1 className="mt-6 text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
 Staff augmentation exclusively for
-<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">IT monitoring & observability.</span>
+<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">IT Monitoring & Observability</span>
 </h1>
 <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
 {TAGLINE}. Free to you, and nothing to buy from us.
@@ -66,7 +66,7 @@ Take the 2-minute assessment
 See how it works
 </Link>
 </div>
-<p className="mt-6 text-sm font-medium text-muted-foreground">Free for IT leaders · No obligation · Monitoring & observability only</p>
+<p className="mt-6 text-sm font-medium text-muted-foreground">Free for IT leaders · No obligation · Monitoring & Observability only</p>
 </div>
 </section>
 
