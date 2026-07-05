@@ -76,7 +76,7 @@ export function SiteFooter() {
           <div className="max-w-sm">
             <Logo />
             <p className="mt-4 text-sm leading-relaxed text-gray-400">
-              An independent matching service that connects IT leaders with independent specialists to solve infrastructure &amp; monitoring challenges.
+              Staff augmentation exclusively for IT monitoring and observability — connecting IT leaders with independent specialists who embed with your team when coverage gets stretched.
             </p>
           </div>
           <nav aria-label="Footer navigation" className="grid grid-cols-2 gap-x-12 gap-y-3 text-sm">
@@ -99,7 +99,7 @@ export function SiteFooter() {
         </div>
         <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-gray-400 md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} ITMonitoring.com. All rights reserved.</p>
-          <p>ITMonitoring.com is an independent matching service — not a provider of tools, software, or consulting.</p>
+          <p>ITMonitoring.com is a staff augmentation network for monitoring and observability — not a provider of tools, software, or consulting.</p>
         </div>
       </div>
     </footer>
