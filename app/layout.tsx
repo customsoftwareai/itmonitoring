@@ -21,19 +21,12 @@ export const metadata: Metadata = {
     siteName: "ITMonitoring.com",
     type: "website",
     locale: "en_US",
-    images: [
-      {
-        url: "/itmonitoring-logo.png",
-        alt: "ITMonitoring.com — staff augmentation for IT monitoring and observability",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
     description:
       "Staff augmentation exclusively for IT monitoring and observability. Independent specialists who embed with your team. Free to IT leaders.",
-    images: ["/itmonitoring-logo.png"],
   },
 }
 
