@@ -21,9 +21,9 @@ const PAINS = [
 ]
 
 const STEPS = [
-{ n: "01", title: "Take the assessment", body: "A short health check surfaces where your monitoring coverage is thin — downtime exposure, blind spots, alert noise, or tool sprawl." },
-{ n: "02", title: "We narrow it to two specialists", body: "We research your environment and introduce you to the two best-matched specialists — both work only in monitoring and observability, both already know stacks like yours. No generalists, no cold vendor outreach." },
-{ n: "03", title: "They embed with your team", body: "Talk to both, pick the specialist who fits, and they slot in alongside your team to extend your coverage. You engage them directly, and there's nothing to buy from us." },
+{ n: "01", title: "Take the assessment", body: "A short health check surfaces where your monitoring coverage is thin — downtime exposure, blind spots, alert noise, or tool sprawl. The more you share about your environment, the sharper the match." },
+{ n: "02", title: "We shortlist two or three specialists", body: "Based on what you share in the assessment, we match you with the two or three specialists who best fit your stack — all work only in monitoring and observability, and already know environments like yours. No generalists, no cold vendor outreach." },
+{ n: "03", title: "They embed with your team", body: "Talk to the shortlist, pick the specialist who fits, and they slot in alongside your team to extend your coverage. You engage them directly, and there's nothing to buy from us." },
 ]
 
 const SPECIALTIES = [
@@ -139,7 +139,7 @@ The only thing you would ever pay goes to a specialist directly — and only if 
 <span className="text-sm font-semibold uppercase tracking-wider text-primary">Independent specialists</span>
 <h2 className="mt-3 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">One specialty, every layer of your monitoring stack</h2>
 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-Every specialist in our network works only in monitoring and observability — never as a generalist. We match you on fit for your specific environment, and you evaluate each introduction directly.
+Every specialist in our network works only in monitoring and observability — never as a generalist. We match you on the stack and needs you describe, and you evaluate each introduction directly.
 </p>
 <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.02] p-6">
 <p className="text-base font-semibold text-foreground">Are you an IT monitoring specialist?</p>
