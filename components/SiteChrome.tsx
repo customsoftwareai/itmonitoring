@@ -22,7 +22,8 @@ export function Logo({ className = "" }: { className?: string }) {
 const NAV_LINKS = [
   { href: "/#how-it-works", label: "How it works" },
   { href: "/#specialists", label: "Specialists" },
-  { href: "/#faq", label: "FAQ" },
+  { href: "/about", label: "About" },
+{ href: "/#faq", label: "FAQ" },
   { href: "/careers", label: "Careers" },
 ]
 
@@ -82,6 +83,7 @@ export function SiteFooter() {
           <nav aria-label="Footer navigation" className="grid grid-cols-2 gap-x-12 gap-y-3 text-sm">
             <Link href="/#how-it-works" className="text-gray-400 hover:text-foreground">How it works</Link>
             <Link href="/#specialists" className="text-gray-400 hover:text-foreground">Specialists</Link>
+<Link href="/about" className="text-gray-400 hover:text-foreground">About</Link>
             <Link href="/#faq" className="text-gray-400 hover:text-foreground">FAQ</Link>
             <Link href="/careers" className="text-gray-400 hover:text-foreground">Careers</Link>
             <Link href="/assessment" className="text-gray-400 hover:text-foreground">Assessment</Link>
