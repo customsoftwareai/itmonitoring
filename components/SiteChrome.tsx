@@ -25,6 +25,7 @@ const NAV_LINKS = [
   { href: "/about", label: "About" },
 { href: "/#faq", label: "FAQ" },
   { href: "/careers", label: "Careers" },
+{ href: "/contact", label: "Contact" },
 ]
 
 export function SiteNav() {
@@ -86,6 +87,7 @@ export function SiteFooter() {
 <Link href="/about" className="text-gray-400 hover:text-foreground">About</Link>
             <Link href="/#faq" className="text-gray-400 hover:text-foreground">FAQ</Link>
             <Link href="/careers" className="text-gray-400 hover:text-foreground">Careers</Link>
+<Link href="/contact" className="text-gray-400 hover:text-foreground">Contact</Link>
             <Link href="/assessment" className="text-gray-400 hover:text-foreground">Assessment</Link>
             <Link href="/accessibility" className="text-gray-400 hover:text-foreground">Accessibility</Link>
             <Link href="/privacy" className="text-gray-400 hover:text-foreground">Privacy Policy</Link>
