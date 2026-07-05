@@ -22,7 +22,7 @@ const PAINS = [
 
 const STEPS = [
 { n: "01", title: "Take the assessment", body: "A short health check surfaces where your monitoring coverage is thin — downtime exposure, blind spots, alert noise, or tool sprawl. The more you share about your environment, the sharper the match." },
-{ n: "02", title: "We shortlist two or three specialists", body: "Based on what you share in the assessment, we match you with the two or three specialists who best fit your stack — all work only in monitoring and observability, and already know environments like yours. No generalists, no cold vendor outreach." },
+{ n: "02", title: "We shortlist two or three specialists", body: "Based on what you share in the assessment, we match you with the two or three specialists who best fit your stack — all work only in monitoring and observability, and already know environments like yours. Most introductions land within two business days. No generalists, no cold vendor outreach." },
 { n: "03", title: "They embed with your team", body: "Talk to the shortlist, pick the specialist who fits, and they slot in alongside your team to extend your coverage. You engage them directly, and there's nothing to buy from us." },
 ]
 
@@ -192,7 +192,7 @@ ITMonitoring.com is a staff augmentation network built only for monitoring and o
 <div className="pointer-events-none absolute left-1/2 top-1/2 h-[300px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/15 blur-[120px]" aria-hidden="true" />
 <div className="relative">
 <h2 className="text-3xl font-semibold tracking-tight text-foreground md:text-4xl">See where your monitoring stands</h2>
-<p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">Take the assessment and we'll match you with a specialist who fits your stack. No obligation, no pitch.</p>
+<p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">Take the assessment and we'll introduce you to your matched specialists within two business days. No obligation, no pitch.</p>
 <Link href="/assessment" className="mt-8 inline-flex rounded-full bg-primary px-8 py-4 text-base font-semibold text-primary-foreground shadow-xl shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-primary/40 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background">
 Take the assessment
 </Link>
