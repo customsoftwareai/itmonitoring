@@ -5,11 +5,11 @@ import * as Accordion from "@radix-ui/react-accordion"
 const FAQS = [
 {
 q: "What does it cost to use ITMonitoring.com?",
-a: "Nothing. Getting matched and having an introductory conversation with a specialist is completely free and carries no obligation — there's no fee, markup, or subscription on your side. The only thing you'd ever pay goes to a specialist directly, and only if you choose to engage one.",
+a: "Nothing. Getting matched and having an introductory conversation with a specialist is at no cost to you and carries no obligation — there's no fee, markup, or subscription on your side. The only thing you'd ever pay goes to a specialist directly, and only if you choose to engage one.",
 },
 {
-q: "If it's free for me, how does ITMonitoring.com make money?",
-a: "Our specialists pay us a referral fee when we place them with a client. That's the entire model — it's how the service stays free for the IT leaders we work with, and it means you never pay us anything. We match you on fit, for your environment, not on who pays us most.",
+q: "If it's at no cost to me, how does ITMonitoring.com make money?",
+a: "Our specialists pay us a referral fee when we place them with a client. That's the entire model — it's how the service stays at no cost to the IT leaders we work with, and it means you never pay us anything. We match you on fit, for your environment, not on who pays us most.",
 },
 {
 q: "Does ITMonitoring.com provide the monitoring service itself?",
