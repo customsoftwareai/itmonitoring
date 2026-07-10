@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { SiteNav, SiteFooter } from "@/components/SiteChrome"
+import { ZohoFormEmbed } from "@/components/ZohoFormEmbed"
 
 export const metadata: Metadata = {
 title: "Contact | ITMonitoring.com",
@@ -25,13 +26,10 @@ Have a question, or want to tell us about your monitoring and observability need
 </div>
 </section>
 <section className="mx-auto w-full max-w-3xl px-6 py-12">
-<div className="overflow-hidden rounded-2xl border border-white/10 bg-card">
-<iframe
-title="Contact ITMonitoring.com"
-className="h-[640px] w-full border-none md:h-[740px]"
-src="https://forms.itmonitoring.com/access/form/ITMonitoringcomContact/formperma/qsN4BvNMYZc_th4HCXr9xuNW680zXtQ5GXnlVJz27UA"
+<ZohoFormEmbed
+  title="Contact ITMonitoring.com"
+  src="https://forms.itmonitoring.com/access/form/ITMonitoringcomContact/formperma/qsN4BvNMYZc_th4HCXr9xuNW680zXtQ5GXnlVJz27UA"
 />
-</div>
 </section>
 </main>
 <SiteFooter />
