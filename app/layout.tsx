@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://itmonitoring.com"),
   title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
   description:
-    "Staff augmentation exclusively for IT monitoring and observability. We place independent specialists who embed with your team when coverage gets stretched. Free to IT leaders.",
+    "Staff augmentation exclusively for IT monitoring and observability. We place independent specialists who embed with your team when coverage gets stretched. At no cost to IT leaders.",
   openGraph: {
     title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
     description:
-      "Staff augmentation exclusively for IT monitoring and observability. Independent specialists who embed with your team when coverage gets stretched. Free to IT leaders.",
+      "Staff augmentation exclusively for IT monitoring and observability. Independent specialists who embed with your team when coverage gets stretched. At no cost to IT leaders.",
     url: "https://itmonitoring.com",
     siteName: "ITMonitoring.com",
     type: "website",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
     description:
-      "Staff augmentation exclusively for IT monitoring and observability. Independent specialists who embed with your team. Free to IT leaders.",
+      "Staff augmentation exclusively for IT monitoring and observability. Independent specialists who embed with your team. At no cost to IT leaders.",
   },
 }
 
