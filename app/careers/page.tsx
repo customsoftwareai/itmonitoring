@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { SiteNav, SiteFooter } from "@/components/SiteChrome"
+import { ZohoFormEmbed } from "@/components/ZohoFormEmbed"
 
 export const metadata: Metadata = {
   title: "Careers — Join our network of IT monitoring specialists | ITMonitoring.com",
@@ -73,13 +74,10 @@ export default function CareersPage() {
             <h2 className="text-3xl font-semibold tracking-tight text-foreground md:text-4xl">Apply to join</h2>
             <p className="mt-3 text-muted-foreground">Tell us about your experience and attach your resume. A cover letter is optional.</p>
           </div>
-          <div className="overflow-hidden rounded-2xl border border-white/10 bg-card">
-            <iframe
-              title="IT Monitoring Specialist Application"
-              className="h-[2000px] w-full border-none"
-              src="https://forms.zohopublic.com/access/form/ITMonitoringSpecialistApplication/formperma/K8fo2MvE19TjCswZ2aOMgCEU_twNDH27sQ18K3_5S7Q"
-            />
-          </div>
+          <ZohoFormEmbed
+            title="IT Monitoring Specialist Application"
+            src="https://forms.zohopublic.com/access/form/ITMonitoringSpecialistApplication/formperma/K8fo2MvE19TjCswZ2aOMgCEU_twNDH27sQ18K3_5S7Q"
+          />
         </section>
       </main>
 
