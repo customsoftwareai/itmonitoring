@@ -56,7 +56,7 @@ Staff augmentation exclusively for
 <span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">IT Monitoring & Observability</span>
 </h1>
 <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-{TAGLINE}. Free to you, and nothing to buy from us.
+{TAGLINE}. At no cost to you, and nothing to buy from us.
 </p>
 <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
 <Link href="/assessment" className="rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-primary-foreground shadow-xl shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-primary/40 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background">
@@ -66,7 +66,7 @@ Take the 2-minute assessment
 See how it works
 </Link>
 </div>
-<p className="mt-6 text-sm font-medium text-muted-foreground">The assessment maps your monitoring & observability environment, so we can match you with the specialist who best fits your stack — free, no obligation.</p>
+<p className="mt-6 text-sm font-medium text-muted-foreground">The assessment maps your monitoring & observability environment, so we can match you with the specialist who best fits your stack, at no cost and no obligation.</p>
 </div>
 </section>
 
@@ -114,11 +114,11 @@ See how it works
 <div className="relative">
 <span className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
-Free for IT leaders
+At no cost to IT leaders
 </span>
 <h2 className="mt-6 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">What does it cost you? Nothing.</h2>
 <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-Getting matched and talking to a specialist is completely free — no fee, no markup, no subscription on your side, ever. Our specialists pay us a referral fee when we place them with you, which is how the service stays free for the IT leaders we work with.
+Getting matched and talking to a specialist is at no cost to you: no fee, no markup, no subscription on your side, ever. Our specialists pay us a referral fee when we place them with you, which is how the service stays at no cost to the IT leaders we work with.
 </p>
 <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
 The only thing you would ever pay goes to a specialist directly — and only if you choose to engage one. We match you on fit, the right specialist for your environment, never on who pays us most.
