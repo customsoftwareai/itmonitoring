@@ -30,7 +30,7 @@ return (
 </span>
 <h1 className="mt-6 text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl">
 We do one thing:
-<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">staff augmentation for IT monitoring & observability.</span>
+<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent pb-[0.2em]">staff augmentation for IT monitoring & observability</span>
 </h1>
 <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
 ITMonitoring.com connects IT leaders with independent specialists who embed with your team when monitoring coverage gets stretched — matched to your stack, and free to you.
