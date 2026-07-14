@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const content: LegalContent = {
   title: "Terms of Use",
-  effectiveDate: "June 14, 2026",
+  effectiveDate: "July 14, 2026",
   intro: [
     { type: "p", text: "ITMonitoring.com is owned and operated by Event Media 770 Corp." },
     {
@@ -35,7 +35,7 @@ const content: LegalContent = {
     { type: "section", n: "1", title: "About ITMonitoring.com" },
     {
       type: "p",
-      text: "ITMonitoring.com is a referral-based staff augmentation network that connects IT leaders and organizations with independent IT monitoring and observability specialists. We provide intake, matching, referral, and introduction services for individuals and organizations seeking help with infrastructure monitoring, observability, alert optimization, application and network performance monitoring, logging, and related IT monitoring needs.",
+      text: "ITMonitoring.com is a referral network that connects IT leaders and organizations with independent IT monitoring and observability specialists, firms, and providers. We provide intake, matching, referral, and introduction services for individuals and organizations seeking help with infrastructure monitoring, observability, alert optimization, application and network performance monitoring, logging, and related IT monitoring needs.",
     },
     {
       type: "p",
@@ -47,7 +47,7 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "Unless expressly stated in a separate written agreement signed by ITMonitoring.com, ITMonitoring.com does not itself design, implement, configure, host, maintain, manage, or deliver any monitoring system, observability solution, software, or related service; that work is performed by the independent specialist you choose to engage. Our service is free for IT leaders, and we are compensated by the independent specialists in our network through referral fees.",
+      text: "Unless expressly stated in a separate written agreement signed by ITMonitoring.com, ITMonitoring.com does not itself design, implement, configure, host, maintain, manage, or deliver any monitoring system, observability solution, software, or related service; that work is performed by the independent specialist, firm, or provider you choose to engage, who is an independent business and may recommend or provide its own tools or software as part of its work. Our service is at no cost to IT leaders. We are compensated by the specialists, firms, and providers in our network — through referral fees, commissions, or other arrangements — when we introduce or place them with you.",
     },
     { type: "section", n: "2", title: "No Guarantee of Specialist Engagement or Project Results" },
     { type: "p", text: "Submitting information through ITMonitoring.com does not guarantee that:" },
@@ -73,11 +73,11 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "ITMonitoring.com may receive referral fees, and may receive network membership fees, from the independent specialists in our network if you are referred to them, communicate with them, engage them, or enter into a business relationship with them.",
+      text: "ITMonitoring.com may receive referral fees, commissions, residual or recurring compensation, network membership fees, or other compensation from the specialists, firms, and providers in our network if you are referred to them, communicate with them, engage them, or enter into a business relationship with them.",
     },
     {
       type: "p",
-      text: "You understand and agree that ITMonitoring.com may have a financial or business relationship with the independent specialists to whom your information is referred. Our service is free to you; we do not take a commission on hours billed by the specialist you choose to engage.",
+      text: "You understand and agree that ITMonitoring.com may have a financial or business relationship with the specialists, firms, and providers to whom your information is referred, and may receive ongoing or recurring compensation in connection with your engagement. Our service is at no cost to you; you agree any rate or fee directly with the specialist, firm, or provider you choose to engage, and ITMonitoring.com does not add any markup to what you pay them.",
     },
     { type: "section", n: "4", title: "No Professional Advice" },
     {

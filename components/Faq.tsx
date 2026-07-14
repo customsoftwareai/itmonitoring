@@ -5,35 +5,35 @@ import * as Accordion from "@radix-ui/react-accordion"
 const FAQS = [
 {
 q: "What does it cost to use ITMonitoring.com?",
-a: "Nothing. Getting matched and having an introductory conversation with a specialist is at no cost to you and carries no obligation — there's no fee, markup, or subscription on your side. The only thing you'd ever pay goes to a specialist directly, and only if you choose to engage one.",
+a: "Nothing. Getting matched and talking to a partner is at no cost to you and carries no obligation — there's no fee, markup, or subscription on your side. The only thing you'd ever pay goes directly to a partner you choose to engage, at a rate you agree with them.",
 },
 {
 q: "If it's at no cost to me, how does ITMonitoring.com make money?",
-a: "Our specialists pay us a referral fee when we place them with a client. That's the entire model — it's how the service stays at no cost to the IT leaders we work with, and it means you never pay us anything. We match you on fit, for your environment, not on who pays us most.",
+a: "When you engage a partner we introduced, that partner pays us. That's the entire model — it's how the service stays at no cost to the IT leaders we work with, and it means you never pay us anything. We never add a markup, and you agree your rate directly with the partner.",
 },
 {
 q: "Does ITMonitoring.com provide the monitoring service itself?",
-a: "No. We're a staff augmentation network built only for monitoring and observability. We don't sell tools, software, or consulting, and we don't do the technical work ourselves. What we do is place independent specialists who embed with your team and help extend your monitoring and observability coverage. You're told that upfront, every time.",
+a: "No. We're a referral network built only for monitoring and observability. We don't sell tools, software, or consulting, and we don't do the technical work ourselves. What we do is introduce you to independent experts or firms who do — you engage the one you choose directly. You're told that upfront, every time.",
 },
 {
 q: "How does the matching process work?",
-a: "You start with a short assessment that surfaces where your monitoring has gaps — downtime exposure, blind spots, alert noise, or tool sprawl — plus space to describe your environment in your own words. Based on what you share, we match you to the two or three specialists who best fit your stack, with a clear read on how each one fits. All work only in monitoring and observability, and once you choose, the specialist embeds with your team. There's no obligation, and nothing to buy from us.",
+a: "You start with a short assessment that surfaces where your monitoring has gaps — downtime exposure, blind spots, alert noise, or tool sprawl — plus space to describe your environment in your own words. Based on what you share, we introduce you to the two or three partners who best fit your stack, with a clear read on how each one fits. Once you choose, you engage that partner directly. There's no obligation, and nothing to buy from us.",
 },
 {
-q: "How many specialists will you introduce me to?",
-a: "Usually two or three. Based on your assessment, we match you to the specialists who best fit what you described, then explain how each one fits so you can choose with confidence. If none is right, just tell us and we'll dig deeper until we find the right person — we're not a directory that hands you a list and walks away.",
+q: "How many partners will you introduce me to?",
+a: "Usually two or three. Based on your assessment, we match you to the partners who best fit what you described, then explain how each one fits so you can choose with confidence. If none is right, just tell us and we'll dig deeper until we find the right fit — we're not a directory that hands you a list and walks away.",
 },
 {
-q: "What kinds of problems do the specialists handle?",
+q: "What kinds of problems do the partners handle?",
 a: "Infrastructure and server monitoring, network monitoring, application performance (APM), cloud and Kubernetes visibility, observability and logging, security and SIEM monitoring, and reducing alert fatigue and tool sprawl — across most major platforms.",
 },
 {
 q: "Do you work with organizations outside the United States?",
-a: "Yes. Our specialists serve clients remotely across borders, so we can make relevant introductions regardless of where your team is based.",
+a: "Yes. Our partners serve clients remotely across borders, so we can make relevant introductions regardless of where your team is based.",
 },
 {
-q: "How do you choose which specialists to introduce?",
-a: "We're a staff augmentation network — not a vetting, certification, or background-check service. We don't screen, verify, or endorse specialists, and we don't guarantee their work. We match you based on the experience specialists describe and the needs you share, then make the introduction so you can evaluate them and decide for yourself. Any due diligence is always yours.",
+q: "How do you choose which partners to introduce?",
+a: "We're a referral network — not a vetting, certification, or background-check service. We don't screen, verify, or endorse partners, and we don't guarantee their work. We match you based on the experience each partner describes and the needs you share, then make the introduction so you can evaluate them and decide for yourself. Any due diligence is always yours.",
 },
 ]
 

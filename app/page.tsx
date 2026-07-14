@@ -3,7 +3,7 @@ import { SiteNav, SiteFooter } from "@/components/SiteChrome"
 import { Faq } from "@/components/Faq"
 
 const TAGLINE =
-"We place an independent specialist alongside your team when Monitoring coverage gets stretched — one who already lives in Observability and gets fluent in your stack fast"
+"Tell us where your coverage is stretched, and we'll introduce you to two or three independent experts or firms with deep monitoring and observability expertise. It's all we focus on"
 
 function Icon({ path }: { path: React.ReactNode }) {
 return (
@@ -22,8 +22,8 @@ const PAINS = [
 
 const STEPS = [
 { n: "01", title: "Take the assessment", body: "A short health check surfaces where your monitoring coverage is thin — downtime exposure, blind spots, alert noise, or tool sprawl. The more you share about your environment, the sharper the match." },
-{ n: "02", title: "We shortlist two or three specialists", body: "Based on what you share in the assessment, we match you with the two or three specialists who best fit your stack — all work only in monitoring and observability, and already know environments like yours. No generalists, no cold vendor outreach." },
-{ n: "03", title: "They embed with your team", body: "Talk to the shortlist, pick the specialist who fits, and they slot in alongside your team to extend your coverage. You engage them directly, and there's nothing to buy from us." },
+{ n: "02", title: "We shortlist two or three partners", body: "Based on what you share, we introduce you to two or three independent experts or firms whose monitoring and observability expertise fits your stack. It's all we focus on — no generalist staffing, no cold vendor outreach." },
+{ n: "03", title: "You choose and engage directly", body: "Talk to the shortlist, judge the fit yourself, and pick the partner who's right for you. They can embed with your team for as long as you need. You engage them directly, and there's nothing to buy from us." },
 ]
 
 const SPECIALTIES = [
@@ -49,13 +49,14 @@ return (
 <div className="pointer-events-none absolute left-1/2 top-[-10%] h-[520px] w-[820px] -translate-x-1/2 rounded-full bg-primary/20 blur-[140px]" aria-hidden="true" />
 <div className="relative mx-auto max-w-4xl px-6 pb-24 pt-20 text-center md:pt-28">
 <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-4 py-1.5 text-xs font-medium text-muted-foreground">
-<span className="h-1.5 w-1.5 rounded-full bg-primary" /> Independent specialists · Monitoring & Observability only
+<span className="h-1.5 w-1.5 rounded-full bg-primary" /> Independent experts & firms · Specializing in Monitoring & Observability
 </span>
 <h1 className="mt-6 text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
-Staff augmentation exclusively for
-<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent pb-[0.2em]">IT Monitoring & Observability</span>
+Get introduced to a monitoring & observability specialist
+<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent pb-[0.2em]">without the weeks-long search</span>
 </h1>
-<p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+<p className="mx-auto mt-5 max-w-2xl text-lg font-semibold leading-relaxed text-foreground sm:text-xl">Matched to your stack — they already know your tools, so you're not paying for training or time to get up to speed.</p>
+<p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
 {TAGLINE}. At no cost to you, and nothing to buy from us.
 </p>
 <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
@@ -87,13 +88,35 @@ See how it works
 </div>
 </section>
 
+{/* WHO COMES TO US */}
+<section className="mx-auto max-w-6xl px-6 pb-20 md:pb-24">
+<div className="grid items-start gap-12 lg:grid-cols-2">
+<div>
+<span className="text-sm font-semibold uppercase tracking-wider text-primary">Who comes to us</span>
+<h2 className="mt-3 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">The moment coverage gets stretched</h2>
+<p className="mt-4 text-lg leading-relaxed text-muted-foreground">Most IT leaders reach out at a moment of strain, not on a quiet afternoon. The most common one we see: a monitoring or observability specialist leaves on short notice, and suddenly no one owns the dashboards, the alerts, or the on-call rotation.</p>
+<p className="mt-4 text-lg leading-relaxed text-muted-foreground">We work with IT teams of every size — lean startups to enterprises — across the United States and internationally.</p>
+</div>
+<div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6">
+<p className="text-base font-semibold text-foreground">Other common triggers</p>
+<ul className="mt-4 grid gap-3">
+<li className="flex items-start gap-3 text-sm font-medium text-foreground"><svg className="mt-0.5 h-4 w-4 shrink-0 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>A migration or cloud move that's outpacing the team</li>
+<li className="flex items-start gap-3 text-sm font-medium text-foreground"><svg className="mt-0.5 h-4 w-4 shrink-0 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>An audit or compliance deadline bearing down</li>
+<li className="flex items-start gap-3 text-sm font-medium text-foreground"><svg className="mt-0.5 h-4 w-4 shrink-0 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Rapid growth burying the team in alert noise</li>
+<li className="flex items-start gap-3 text-sm font-medium text-foreground"><svg className="mt-0.5 h-4 w-4 shrink-0 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>A tool consolidation no one has the bandwidth to lead</li>
+</ul>
+<p className="mt-5 text-sm leading-relaxed text-muted-foreground">If any of these sound familiar, that's exactly when a matched specialist helps most.</p>
+</div>
+</div>
+</section>
+
 {/* HOW IT WORKS */}
 <section id="how-it-works" className="scroll-mt-20 border-y border-white/5 bg-white/[0.015]">
 <div className="mx-auto max-w-6xl px-6 py-20 md:py-24">
 <div className="mx-auto max-w-2xl text-center">
 <span className="text-sm font-semibold uppercase tracking-wider text-primary">How it works</span>
-<h2 className="mt-3 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">From coverage gap to embedded specialist</h2>
-<p className="mt-4 text-lg text-muted-foreground">Three steps to extend your team with the right specialist.</p>
+<h2 className="mt-3 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">From coverage gap to the right introduction</h2>
+<p className="mt-4 text-lg text-muted-foreground">Three steps to extend your team with the right partner.</p>
 </div>
 <div className="mt-14 grid gap-6 md:grid-cols-3">
 {STEPS.map((s) => (
@@ -118,15 +141,15 @@ At no cost to IT leaders
 </span>
 <h2 className="mt-6 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">What does it cost you? Nothing.</h2>
 <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-Getting matched and talking to a specialist is at no cost to you: no fee, no markup, no subscription on your side, ever. Our specialists pay us a referral fee when we place them with you, which is how the service stays at no cost to the IT leaders we work with.
+Getting matched and talking to a partner is at no cost to you — no fee, no markup, no subscription on your side, ever. The way we make money is simple: when you engage a partner we introduced, that partner pays us. You never pay us.
 </p>
 <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-The only thing you would ever pay goes to a specialist directly — and only if you choose to engage one. We match you on fit, the right specialist for your environment, never on who pays us most.
+<strong className="text-foreground">You're always in control of the cost.</strong> We never add a markup. You agree your rate directly with each partner, up front — and because we introduce you to two or three, you can compare and choose on fit and terms before you commit to anyone.
 </p>
 <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm font-medium">
-<span className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-foreground">$0 to you</span>
+<span className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-foreground">At no cost to you</span>
 <span className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-foreground">No obligation</span>
-<span className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-foreground">No vendor bias</span>
+<span className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-foreground">You agree the rate directly</span>
 </div>
 </div>
 </div>
@@ -136,13 +159,13 @@ The only thing you would ever pay goes to a specialist directly — and only if 
 <section id="specialists" className="scroll-mt-20 mx-auto max-w-6xl px-6 py-20 md:py-24">
 <div className="grid items-center gap-12 lg:grid-cols-2">
 <div>
-<span className="text-sm font-semibold uppercase tracking-wider text-primary">Independent specialists</span>
-<h2 className="mt-3 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">One specialty, every layer of your monitoring stack</h2>
+<span className="text-sm font-semibold uppercase tracking-wider text-primary">Independent experts & firms</span>
+<h2 className="mt-3 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">One focus, every layer of your monitoring stack</h2>
 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-Every specialist in our network works only in monitoring and observability — never as a generalist. We match you on the stack and needs you describe, and you evaluate each introduction directly.
+We focus only on monitoring and observability — that's the whole network. We match you on the stack and needs you describe, and you evaluate each introduction directly.
 </p>
 <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.02] p-6">
-<p className="text-base font-semibold text-foreground">Are you an IT monitoring specialist?</p>
+<p className="text-base font-semibold text-foreground">Are you a monitoring & observability expert or firm?</p>
 <p className="mt-1 text-sm text-muted-foreground">Join our network and get matched with IT leaders who need your expertise.</p>
 <Link href="/careers" className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline">
 Apply to join our team
@@ -171,7 +194,7 @@ Apply to join our team
 </span>
 <h2 className="mt-5 text-2xl font-semibold tracking-tight text-foreground md:text-3xl">Transparent by design</h2>
 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-ITMonitoring.com is a staff augmentation network built only for monitoring and observability — not a reseller of tools or software, and not the party doing the technical work. We connect you with an independent specialist who does. You engage them directly, they pay our referral fee, and you're told exactly how it works upfront, every time.
+ITMonitoring.com is a referral network built only for monitoring and observability — not a reseller of tools or software, and not the party doing the technical work. We connect you with an independent expert or firm who does. We shortlist based on the expertise each partner describes and the needs you share; we don't vet, screen, or endorse them, and any due diligence is yours. Partners are independent businesses or individuals — some may recommend or provide tools as part of their own work, and anything you buy is agreed directly with them. You engage the partner you choose directly, that partner pays us, and you're told exactly how it works upfront, every time.
 </p>
 </div>
 </div>
@@ -192,7 +215,7 @@ ITMonitoring.com is a staff augmentation network built only for monitoring and o
 <div className="pointer-events-none absolute left-1/2 top-1/2 h-[300px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/15 blur-[120px]" aria-hidden="true" />
 <div className="relative">
 <h2 className="text-3xl font-semibold tracking-tight text-foreground md:text-4xl">See where your monitoring stands</h2>
-<p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">Take the assessment. We'll personally review your responses and reach out to introduce you to the specialists who best fit your stack. No obligation, no pitch.</p>
+<p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">Take the assessment. We'll personally review your responses and introduce you to the partners who best fit your stack. No obligation, no pitch.</p>
 <Link href="/assessment" className="mt-8 inline-flex rounded-full bg-primary px-8 py-4 text-base font-semibold text-primary-foreground shadow-xl shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-primary/40 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background">
 Take the assessment
 </Link>

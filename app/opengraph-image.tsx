@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og"
 
-export const alt = "ITMonitoring.com — staff augmentation for IT monitoring and observability"
+export const alt = "ITMonitoring.com — referral network for IT monitoring and observability"
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
 
@@ -25,10 +25,10 @@ fontFamily: "sans-serif",
 <div style={{ fontSize: 32, fontWeight: 600, color: "#e5e9f0" }}>ITMonitoring.com</div>
 </div>
 <div style={{ fontSize: 60, fontWeight: 700, lineHeight: 1.1, letterSpacing: -1, maxWidth: 1000 }}>
-{"Staff augmentation exclusively for IT monitoring & observability"}
+{"Referral network for IT monitoring & observability"}
 </div>
 <div style={{ fontSize: 28, color: "#94a3b8", marginTop: 34 }}>
-{"Independent specialists who extend your team. Free to IT leaders."}
+{"Independent experts and firms who extend your team. At no cost to IT leaders."}
 </div>
 </div>
 ),
