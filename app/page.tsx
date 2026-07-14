@@ -53,7 +53,7 @@ return (
 </span>
 <h1 className="mt-6 text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
 Staff augmentation exclusively for
-<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">IT Monitoring & Observability</span>
+<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent pb-[0.2em]">IT Monitoring & Observability</span>
 </h1>
 <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
 {TAGLINE}. At no cost to you, and nothing to buy from us.
