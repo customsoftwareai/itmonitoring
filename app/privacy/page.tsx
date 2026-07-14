@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const content: LegalContent = {
   title: "Privacy Policy",
-  effectiveDate: "June 14, 2026",
+  effectiveDate: "July 14, 2026",
   intro: [
     { type: "p", text: "ITMonitoring.com is owned and operated by Event Media 770 Corp." },
     {
@@ -108,11 +108,11 @@ const content: LegalContent = {
     { type: "section", n: "3", title: "Sharing Information with Specialists and Partners" },
     {
       type: "p",
-      text: "Because ITMonitoring.com operates as a staff augmentation network that matches IT leaders with independent monitoring and observability specialists, we may share your submitted information with the independent specialists we match to your inquiry so they can help with your engagement.",
+      text: "Because ITMonitoring.com operates as a referral network that matches IT leaders with independent monitoring and observability specialists and firms, we may share your submitted information with the independent specialists, firms, and providers we match to your inquiry so they can help with your engagement.",
     },
     {
       type: "p",
-      text: "These independent specialists work exclusively in monitoring and observability and may include infrastructure and server monitoring specialists, network monitoring specialists, application performance monitoring (APM) experts, cloud and Kubernetes observability specialists, logging and SIEM specialists, and database monitoring specialists.",
+      text: "These independent specialists and firms focus on monitoring and observability and may include infrastructure and server monitoring specialists, network monitoring specialists, application performance monitoring (APM) experts, cloud and Kubernetes observability specialists, logging and SIEM specialists, and database monitoring specialists.",
     },
     {
       type: "p",
@@ -120,7 +120,7 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "ITMonitoring.com is paid a referral fee, and may receive network membership fees, by the independent specialists in our network. Our service is free to you, and we do not take a commission on hours billed by the specialist you choose to engage.",
+      text: "ITMonitoring.com may be paid referral fees, commissions, residual or recurring compensation, network membership fees, or other compensation by the specialists, firms, and providers in our network. Our service is at no cost to you, and you agree any rate or fee directly with the specialist, firm, or provider you choose to engage; ITMonitoring.com does not add any markup to what you pay them.",
     },
     {
       type: "p",
@@ -173,7 +173,7 @@ const content: LegalContent = {
     },
     {
       type: "p",
-      text: "The information you submit may be used to determine which specialist or partner may be appropriate for your inquiry. Specialists and partners may contact you directly using the contact information you provide.",
+      text: "The information you submit may be used to determine which specialist, firm, or provider may be appropriate for your inquiry. Specialists, firms, and providers may contact you directly using the contact information you provide.",
     },
     { type: "section", n: "8", title: "Data Security" },
     {
