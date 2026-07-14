@@ -10,13 +10,13 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://itmonitoring.com"),
-  title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
+  title: "ITMonitoring.com — Referral network for IT monitoring & observability",
   description:
-    "Staff augmentation exclusively for IT monitoring and observability. We place independent specialists who embed with your team when coverage gets stretched. At no cost to IT leaders.",
+    "A referral network for IT monitoring and observability. We introduce you to independent experts and firms who embed with your team when coverage gets stretched. At no cost to IT leaders.",
   openGraph: {
-    title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
+    title: "ITMonitoring.com — Referral network for IT monitoring & observability",
     description:
-      "Staff augmentation exclusively for IT monitoring and observability. Independent specialists who embed with your team when coverage gets stretched. At no cost to IT leaders.",
+      "A referral network for IT monitoring and observability. Independent experts and firms who embed with your team when coverage gets stretched. At no cost to IT leaders.",
     url: "https://itmonitoring.com",
     siteName: "ITMonitoring.com",
     type: "website",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ITMonitoring.com — Staff augmentation for IT monitoring & observability",
+    title: "ITMonitoring.com — Referral network for IT monitoring & observability",
     description:
-      "Staff augmentation exclusively for IT monitoring and observability. Independent specialists who embed with your team. At no cost to IT leaders.",
+      "A referral network for IT monitoring and observability. Independent experts and firms who embed with your team. At no cost to IT leaders.",
   },
 }
 
