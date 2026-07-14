@@ -194,7 +194,7 @@ Apply to join our team
 </span>
 <h2 className="mt-5 text-2xl font-semibold tracking-tight text-foreground md:text-3xl">Transparent by design</h2>
 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-ITMonitoring.com is a referral network built only for monitoring and observability — not a reseller of tools or software, and not the party doing the technical work. We connect you with an independent expert or firm who does. We shortlist based on the expertise each partner describes and the needs you share; we don't vet, screen, or endorse them, and any due diligence is yours. Partners are independent businesses — some may recommend or provide tools as part of their own work, and anything you buy is agreed directly with them. You engage the partner you choose directly, that partner pays us, and you're told exactly how it works upfront, every time.
+ITMonitoring.com is a referral network built only for monitoring and observability — not a reseller of tools or software, and not the party doing the technical work. We connect you with an independent expert or firm who does. We shortlist based on the expertise each partner describes and the needs you share; we don't vet, screen, or endorse them, and any due diligence is yours. Partners are independent businesses or individuals — some may recommend or provide tools as part of their own work, and anything you buy is agreed directly with them. You engage the partner you choose directly, that partner pays us, and you're told exactly how it works upfront, every time.
 </p>
 </div>
 </div>
