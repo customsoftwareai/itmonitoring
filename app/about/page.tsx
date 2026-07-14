@@ -3,15 +3,15 @@ import Link from "next/link"
 import { SiteNav, SiteFooter } from "@/components/SiteChrome"
 
 export const metadata: Metadata = {
-title: "About | ITMonitoring.com — Staff augmentation for IT monitoring & observability",
+title: "About | ITMonitoring.com — Referral network for IT monitoring & observability",
 description:
-"ITMonitoring.com is a staff augmentation network that connects IT leaders with independent monitoring and observability specialists. Free to you; the specialist pays our fee.",
+"ITMonitoring.com is a referral network that connects IT leaders with independent monitoring and observability specialists and firms. At no cost to you; the partner pays us.",
 }
 
 const PRINCIPLES = [
-{ title: "One specialty only", body: "Every specialist in our network works exclusively in monitoring and observability — never as a generalist." },
-{ title: "Independent, not ours", body: "Specialists are independent. You engage the one you choose directly, and any due diligence is yours." },
-{ title: "Free to IT leaders", body: "You never pay us. Specialists pay a referral fee when we place them with you — so we match on fit, not on who pays most." },
+{ title: "One specialty only", body: "We focus only on monitoring and observability — that's the whole network, never generalist staffing." },
+{ title: "Independent, not ours", body: "Partners are independent. You engage the one you choose directly, and any due diligence is yours." },
+{ title: "At no cost to IT leaders", body: "You never pay us. Partners pay us when you engage them — so we match on fit, not on who pays most." },
 ]
 
 export default function AboutPage() {
@@ -30,10 +30,10 @@ return (
 </span>
 <h1 className="mt-6 text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl">
 We do one thing:
-<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent pb-[0.2em]">staff augmentation for IT monitoring & observability</span>
+<span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent pb-[0.2em]">introductions for IT monitoring & observability</span>
 </h1>
 <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-ITMonitoring.com connects IT leaders with independent specialists who embed with your team when monitoring coverage gets stretched — matched to your stack, and free to you.
+ITMonitoring.com connects IT leaders with independent experts and firms who can embed with your team when monitoring coverage gets stretched — matched to your stack, at no cost to you.
 </p>
 </div>
 </section>
@@ -42,8 +42,8 @@ ITMonitoring.com connects IT leaders with independent specialists who embed with
 <section className="mx-auto max-w-3xl px-6 py-16 md:py-20">
 <h2 className="text-2xl font-semibold tracking-tight text-foreground md:text-3xl">What we do</h2>
 <div className="mt-5 space-y-4 text-lg leading-relaxed text-muted-foreground">
-<p>We're a staff augmentation network built only for monitoring and observability. When your coverage is stretched — a migration, a growth spurt, mounting alert noise, or an audit on the calendar — we introduce you to independent specialists who already live in this space and know stacks like yours.</p>
-<p>They slot in alongside your team and extend your coverage for as long as you need. We don't sell tools or software, and we don't do the technical work ourselves — the specialist you engage does. We simply make the right introduction, based on what you tell us.</p>
+<p>We're a referral network built only for monitoring and observability. When your coverage is stretched — a migration, a growth spurt, mounting alert noise, or an audit on the calendar — we introduce you to independent experts and firms who already live in this space and know stacks like yours.</p>
+<p>They can embed with your team and extend your coverage for as long as you need. We don't sell tools or software, and we don't do the technical work ourselves — the partner you engage does. We simply make the right introduction, based on what you tell us.</p>
 </div>
 </section>
 
@@ -63,10 +63,10 @@ ITMonitoring.com connects IT leaders with independent specialists who embed with
 
 {/* HOW IT STAYS FREE */}
 <section className="mx-auto max-w-3xl px-6 py-16 md:py-20">
-<h2 className="text-2xl font-semibold tracking-tight text-foreground md:text-3xl">How the service stays free</h2>
+<h2 className="text-2xl font-semibold tracking-tight text-foreground md:text-3xl">How the service stays at no cost</h2>
 <div className="mt-5 space-y-4 text-lg leading-relaxed text-muted-foreground">
-<p>Getting matched and talking to a specialist costs you nothing — no fee, no markup, no subscription, ever. Our specialists pay us a referral fee when we place them with you, which is how the service stays free for the IT leaders we work with.</p>
-<p>The only thing you would ever pay goes to a specialist directly, and only if you choose to engage one. Because our fee comes from the specialist side, we match you on fit for your environment — never on who pays us most.</p>
+<p>Getting matched and talking to a partner costs you nothing — no fee, no markup, no subscription, ever. When you engage a partner we introduced, that partner pays us, which is how the service stays at no cost to the IT leaders we work with.</p>
+<p>The only thing you would ever pay goes to a partner directly, and only if you choose to engage one, at a rate you agree with them. We never add a markup, and we match you on fit for your environment — never on who pays us most.</p>
 </div>
 </section>
 
@@ -77,7 +77,7 @@ ITMonitoring.com connects IT leaders with independent specialists who embed with
 <div className="relative max-w-3xl">
 <h2 className="text-2xl font-semibold tracking-tight text-foreground md:text-3xl">Transparent by design</h2>
 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-We're a staff augmentation network — not a reseller of tools or software, and not the party doing the technical work. We don't vet, screen, or endorse specialists; they're included in our network based on the experience they describe, and any match is based on that and the needs you share. You engage the specialist you choose directly, and any due diligence is yours. You're told exactly how it works upfront, every time.
+We're a referral network — not a reseller of tools or software, and not the party doing the technical work. We don't vet, screen, or endorse partners; they're included in our network based on the experience they describe, and any match is based on that and the needs you share. Partners are independent businesses — some may recommend or provide tools as part of their own work, and anything you buy is agreed directly with them. You engage the partner you choose directly, and any due diligence is yours. You're told exactly how it works upfront, every time.
 </p>
 </div>
 </div>
@@ -98,7 +98,7 @@ We're a staff augmentation network — not a reseller of tools or software, and 
 <div className="pointer-events-none absolute left-1/2 top-1/2 h-[300px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/15 blur-[120px]" aria-hidden="true" />
 <div className="relative">
 <h2 className="text-3xl font-semibold tracking-tight text-foreground md:text-4xl">See where your monitoring stands</h2>
-<p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">Take the assessment and we'll match you with a specialist who fits your stack. No obligation, no pitch.</p>
+<p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">Take the assessment and we'll match you with a partner who fits your stack. No obligation, no pitch.</p>
 <Link href="/assessment" className="mt-8 inline-flex rounded-full bg-primary px-8 py-4 text-base font-semibold text-primary-foreground shadow-xl shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-primary/40 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background">
 Take the assessment
 </Link>
