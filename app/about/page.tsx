@@ -77,7 +77,7 @@ ITMonitoring.com connects IT leaders with independent experts and firms who can 
 <div className="relative max-w-3xl">
 <h2 className="text-2xl font-semibold tracking-tight text-foreground md:text-3xl">Transparent by design</h2>
 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-We're a referral network — not a reseller of tools or software, and not the party doing the technical work. We don't vet, screen, or endorse partners; they're included in our network based on the experience they describe, and any match is based on that and the needs you share. Partners are independent businesses — some may recommend or provide tools as part of their own work, and anything you buy is agreed directly with them. You engage the partner you choose directly, and any due diligence is yours. You're told exactly how it works upfront, every time.
+We're a referral network — not a reseller of tools or software, and not the party doing the technical work. We don't vet, screen, or endorse partners; they're included in our network based on the experience they describe, and any match is based on that and the needs you share. Partners are independent businesses or individuals — some may recommend or provide tools as part of their own work, and anything you buy is agreed directly with them. You engage the partner you choose directly, and any due diligence is yours. You're told exactly how it works upfront, every time.
 </p>
 </div>
 </div>
