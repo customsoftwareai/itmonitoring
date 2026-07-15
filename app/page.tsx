@@ -2,8 +2,6 @@ import Link from "next/link"
 import { SiteNav, SiteFooter } from "@/components/SiteChrome"
 import { Faq } from "@/components/Faq"
 
-const TAGLINE =
-""
 
 function Icon({ path }: { path: React.ReactNode }) {
 return (
@@ -56,9 +54,6 @@ The right match for your stack —
 <span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent pb-[0.2em]">on your terms</span>
 </h1>
 <p className="mx-auto mt-5 max-w-2xl text-lg font-semibold leading-relaxed text-foreground sm:text-xl">An observability seat empties on short notice and no one owns the dashboards. Reach out, and the right independent individual or firm is introduced at no cost to you — no weeks-long search, no getting up to speed. They already know your tools.</p>
-<p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-{TAGLINE}. At no cost to you, and nothing to buy from us.
-</p>
 <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
 <Link href="/assessment" className="rounded-full bg-primary px-7 py-3.5 text-base font-semibold text-primary-foreground shadow-xl shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-primary/40 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background">
 Take the 2-minute assessment
