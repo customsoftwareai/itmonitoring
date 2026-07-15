@@ -3,7 +3,27 @@ import { SiteNav, SiteFooter } from "@/components/SiteChrome"
 import { Faq } from "@/components/Faq"
 
 const TAGLINE =
-"An observability seat empties on short notice and no one owns the dashboards. Reach out, and the right independent individual or firm is introduced at no cost to you — no weeks-long search, no getting up to speed. They already know your tools." },
+""
+
+function Icon({ path }: { path: React.ReactNode }) {
+return (
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+{path}
+</svg>
+)
+}
+
+const PAINS = [
+{ title: "Creeping downtime", body: "Outages that start small and quietly compound — until they reach the executive's desk as lost revenue and lost trust.", icon: <><path d="M12 9v4" /><path d="M12 17h.01" /><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z" /></> },
+{ title: "Observability gaps", body: "Blind spots your current tools never surface — the failures you don't see coming are the ones that hurt.", icon: <><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24" /><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68" /><path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61" /><path d="m2 2 20 20" /></> },
+{ title: "Alert fatigue", body: "So much noise that the signal gets buried. Real incidents hide inside thousands of low-value alerts.", icon: <><path d="M10.268 21a2 2 0 0 0 3.464 0" /><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326" /></> },
+{ title: "Tool sprawl", body: "A patchwork of monitoring systems that don't talk to each other — paying for overlap while gaps remain.", icon: <><rect width="7" height="7" x="3" y="3" rx="1" /><rect width="7" height="7" x="14" y="3" rx="1" /><rect width="7" height="7" x="14" y="14" rx="1" /><rect width="7" height="7" x="3" y="14" rx="1" /></> },
+]
+
+const STEPS = [
+{ n: "01", title: "Take the assessment", body: "A short health check surfaces where your monitoring coverage is thin — downtime exposure, blind spots, alert noise, or tool sprawl. The more you share about your environment, the sharper the match." },
+{ n: "02", title: "We shortlist two or three partners", body: "Based on what you share, we introduce you to two or three independent experts or firms whose monitoring and observability expertise fits your stack. It's all we focus on — no generalist staffing, no cold vendor outreach." },
+{ n: "03", title: "You choose and engage directly", body: "Talk to the shortlist, judge the fit yourself, and pick the partner who's right for you. They can embed with your team for as long as you need. You engage them directly, and there's nothing to buy from us." },
 ]
 
 const SPECIALTIES = [
@@ -35,6 +55,7 @@ return (
 The right match for your stack —
 <span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent pb-[0.2em]">on your terms</span>
 </h1>
+<p className="mx-auto mt-5 max-w-2xl text-lg font-semibold leading-relaxed text-foreground sm:text-xl">An observability seat empties on short notice and no one owns the dashboards. Reach out, and the right independent individual or firm is introduced at no cost to you — no weeks-long search, no getting up to speed. They already know your tools.</p>
 <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
 {TAGLINE}. At no cost to you, and nothing to buy from us.
 </p>
